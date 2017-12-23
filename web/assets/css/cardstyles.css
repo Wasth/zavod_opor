@@ -1,0 +1,189 @@
+
+/*-------------------*/
+/*-----CARD-PAGE-----*/
+/*-------------------*/
+
+#breadcrumbs {
+    background: linear-gradient(to right, #f2f2f2, #ffffff);
+    text-transform: uppercase;
+    padding: 14px 11px;
+    color: #00459b;
+    margin-bottom: 30px;
+}
+#breadcrumbs a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #00459b;
+}
+#breadcrumbs #oporaName {
+    color: #ff4b37;
+    font-size: 16px;
+    font-weight: 700;
+}
+#cardBlock .slider button{
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    border: 0;
+    background: #bababa;
+    margin-right: 20px;
+}
+#cardBlock .slider button.active {
+    background: #ff4c38;
+}
+#cardBlock .slider button:hover {
+    cursor: pointer;
+}
+#cardBlock .slider div {
+    text-align: center;
+}
+#cardBlock #slide {
+    margin-bottom: 30px;
+}
+#cardBlock #slide img {
+    /*display: none;*/
+    width: 90%;
+}
+#cardBlock #slide img:last-child {
+    /*display: inline;*/
+}
+#cardBlock h1 {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#cardBlock h1 #name {
+    color: #959595;
+}
+#cardBlock #adv {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ff4c38;
+}
+#cardBlock #info p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#info .icon {
+    width: 42px;
+    height: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+}
+#info .icon-text {
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    padding-left: 15px;
+}
+#video {
+    background: 0;
+    text-align: center;
+    margin-top: 28px;
+    height: auto;
+    width: auto;
+}
+#cardBlock #additionalPics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#cardBlock #additionalPics img {
+    height: 150px;
+}
+
+#varietySlider .arrow {
+    /*opacity: 0;*/
+}
+
+#curItemGallery img {
+    cursor: pointer;
+}
+#curItemGallery #additionalPics img {
+    filter: grayscale(100%) opacity(50%);
+    transition: 0.1s;
+}
+#curItemGallery #additionalPics img:hover {
+    filter: grayscale(0%);
+    transition: 0.1s;
+}
+#popupWrapper {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 10;
+    cursor: pointer;
+}
+#popup {
+    max-width: calc(90vw - 30px);
+    max-height: calc(90vh - 30px);
+    padding: 15px;
+    margin: 5vh auto;
+    background: white;
+    display: inline-block;
+}
+
+#popup img.full-img {
+    max-width: calc(90vw - 30px);
+    max-height: calc(90vh - 30px);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#varietySlider {
+    height: 270px;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+#varietySlider > .slides {
+    height: 270px;
+}
+#varietySlider > .slides > .slidesBlock {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(4, 1fr);*/
+    /*grid-gap: 8px;*/
+    display: block;
+    padding: 10px;
+    width: calc(100% - 20px);
+    overflow: hidden;
+    white-space: nowrap;
+}
+#varietySlider > .slides > .slidesBlock > div {
+    margin-top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: auto;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.25);
+    width: 187px;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+}
+#varietySlider > .slides > .slidesBlock > div.left {
+    left: -1000px;
+}
+#varietySlider > .slides > .slidesBlock > div.right {
+    left: 1000px;
+}
+#varietySlider > .slides > .slidesBlock > div > h3 {
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#varietySlider > .slides > .slidesBlock > div > div {
+    background-position: center center;
+    background-size: cover;
+    height: 192px;
+    width: 192px;
+}
+#varietySlider > .arrow > img{
+    top:100px;
+}
+
+#slides-tmp {
+    display: none;
+}
