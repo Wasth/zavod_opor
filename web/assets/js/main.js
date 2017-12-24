@@ -117,7 +117,9 @@ function prepareVarietySlider(){
 
     for(var i = 0; i < 4;i++){
         var block = $("#slides-tmp > div:eq("+(varietySlider+i)+")").html();
-        $("#varietySlider .slides .slidesBlock").append("<div class='right'>"+block+"</div>");
+        if(block != undefined) {
+            $("#varietySlider .slides .slidesBlock").append("<div class='right'>" + block + "</div>");
+        }
     }
     $("#varietySlider .slides .slidesBlock > div").animate({"left":"0px"},500);
 
