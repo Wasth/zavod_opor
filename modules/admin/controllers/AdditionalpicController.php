@@ -1,20 +1,18 @@
 <?php
 
-namespace app\modules\controllers;
+namespace app\modules\admin\controllers;
 
-use app\models\ImageUpload;
 use Yii;
-use app\models\Variety;
-use app\models\VarietySearch;
+use app\models\AdditionalPic;
+use app\models\AdditionalPicSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\web\UploadedFile;
 
 /**
- * VarietyController implements the CRUD actions for Variety model.
+ * AdditionalpicController implements the CRUD actions for AdditionalPic model.
  */
-class VarietyController extends Controller
+class AdditionalpicController extends Controller
 {
     /**
      * @inheritdoc
@@ -32,12 +30,12 @@ class VarietyController extends Controller
     }
 
     /**
-     * Lists all Variety models.
+     * Lists all AdditionalPic models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new VarietySearch();
+        $searchModel = new AdditionalPicSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -47,7 +45,7 @@ class VarietyController extends Controller
     }
 
     /**
-     * Displays a single Variety model.
+     * Displays a single AdditionalPic model.
      * @param integer $id
      * @return mixed
      */
@@ -59,32 +57,25 @@ class VarietyController extends Controller
     }
 
     /**
-     * Creates a new Variety model.
+     * Creates a new AdditionalPic model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate($item_id)
+    public function actionCreate()
     {
-        $model = new Variety();
+        $model = new AdditionalPic();
 
-        if (Yii::$app->request->isPost) {
-            $model->load(Yii::$app->request->post());
-            $model->item_id = $item_id;
-            $imgUpload = new ImageUpload();
-            $file = UploadedFile::getInstance($model,'img');
-            $model->img = $imgUpload->uploadFile($file);
-            $model->save();
-            return $this->redirect(['item/view', 'id' => $item_id]);
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
-                'item_id' => $item_id
             ]);
         }
     }
 
     /**
-     * Updates an existing Variety model.
+     * Updates an existing AdditionalPic model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -103,29 +94,29 @@ class VarietyController extends Controller
     }
 
     /**
-     * Deletes an existing Variety model.
+     * Deletes an existing AdditionalPic model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
      */
     public function actionDelete($id)
     {
-        $item_id = $this->findModel($id)->item_id;
+        $item_id = $this->findModel($id)->item->id;
         $this->findModel($id)->delete();
 
         return $this->redirect(['item/view','id'=>$item_id]);
     }
 
     /**
-     * Finds the Variety model based on its primary key value.
+     * Finds the AdditionalPic model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Variety the loaded model
+     * @return AdditionalPic the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Variety::findOne($id)) !== null) {
+        if (($model = AdditionalPic::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

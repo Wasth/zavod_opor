@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules;
+namespace app\modules\admin;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\NotFoundHttpException;
@@ -14,7 +14,7 @@ class Admin extends \yii\base\Module
      * @inheritdoc
      */
     public $layout = '/admin';
-    public $controllerNamespace = 'app\modules\controllers';
+    public $controllerNamespace = 'app\modules\admin\controllers';
 
     /**
      * @inheritdoc

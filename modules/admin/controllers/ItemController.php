@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\controllers;
+namespace app\modules\admin\controllers;
 
 use app\models\AdditionalPic;
 use app\models\ImageUpload;
