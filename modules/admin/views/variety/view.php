@@ -14,6 +14,7 @@ $this->title = $model->id;
 
     <p>
 <!--        --><?//= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Вернуться к элементу',['item/view', 'id'=>$model->item->id],['class'=>'btn btn-primary']) ?>
         <?= Html::a('Добавить дополнительное изображение', ['addpic', 'id' => $model->id], ['class' => 'btn btn-success']) ?>
         <?= Html::a('Delete', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
