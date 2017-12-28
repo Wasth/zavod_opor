@@ -135,7 +135,7 @@ $this->title = 'Завод по производсту опор трубопро
     <h1 class="block-title">ПАСПОРТА НА ИЗДЕЛИЯ И СЕРТИФИКАТЫ</h1>
     <h2>на металл прилагаются к каждой партии продукции</h2>
     <div id="passports" class="content">
-        <img src="assets/img/passports.png">
+        <img src="assets/img/passports.jpg">
     </div>
 </div>
 <div id="deadlinesWrapper">
