@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\Item;
+use app\models\Variety;
 use Yii;
 use yii\filters\AccessControl;
 use yii\helpers\Url;
@@ -69,6 +70,13 @@ class SiteController extends Controller
         return $this->render('card',[
             'item'=>$item,
             'varieties' => $item->varieties
+        ]);
+    }
+    public function actionVariety($id){
+        $variety = Variety::findOne($id);
+
+        return $this->render('fullvariety',[
+            "variety" => $variety,
         ]);
     }
     public function actionMyadmin()

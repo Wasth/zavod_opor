@@ -20,6 +20,11 @@
     font-size: 16px;
     font-weight: 700;
 }
+#breadcrumbs #varietyName {
+    color: #ff4b37;
+    font-size: 16px;
+    font-weight: 700;
+}
 #cardBlock .slider button{
     width: 14px;
     height: 14px;
@@ -168,13 +173,17 @@
 #varietySlider > .slides > .slidesBlock > div.right {
     left: 1000px;
 }
-#varietySlider > .slides > .slidesBlock > div > h3 {
+#varietySlider > .slides > .slidesBlock > div > a {
+    color: black;
+    text-decoration: none;
+}
+#varietySlider > .slides > .slidesBlock > div > a > h3 {
     font-weight: normal;
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
 }
-#varietySlider > .slides > .slidesBlock > div > div {
+#varietySlider > .slides > .slidesBlock > div > a > div {
     background-position: center center;
     background-size: cover;
     height: 192px;

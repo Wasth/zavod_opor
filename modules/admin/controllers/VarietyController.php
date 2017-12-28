@@ -3,6 +3,7 @@
 namespace app\modules\admin\controllers;
 
 use app\models\ImageUpload;
+use app\models\VarietyAddPic;
 use Yii;
 use app\models\Variety;
 use app\models\VarietySearch;
@@ -53,8 +54,11 @@ class VarietyController extends Controller
      */
     public function actionView($id)
     {
+        $model = $this->findModel($id);
+//        var_dump($model->addpics);die;
         return $this->render('view', [
-            'model' => $this->findModel($id),
+            'model' => $model,
+            'addPics' => $model->addpics,
         ]);
     }
 
@@ -82,7 +86,22 @@ class VarietyController extends Controller
             ]);
         }
     }
-
+    public function actionAddpic($id) {
+        $model = new ImageUpload();
+        if(Yii::$app->request->isPost){
+            $file = UploadedFile::getInstance($model,'image');
+            $addPic = new VarietyAddPic();
+            $addPic->variety_id = $id;
+            $addPic->img = $model->uploadFile($file);
+            if($addPic->save()) {
+                return $this->redirect(["view",'id'=>$id]);
+            }
+        }else {
+            return $this->render('image',[
+                'model' => $model
+            ]);
+        }
+    }
     /**
      * Updates an existing Variety model.
      * If update is successful, the browser will be redirected to the 'view' page.

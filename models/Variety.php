@@ -5,6 +5,8 @@ namespace app\models;
 use Yii;
 use yii\helpers\Url;
 
+//use yii\helpers\Url;
+
 /**
  * This is the model class for table "variety".
  *
@@ -59,5 +61,8 @@ class Variety extends \yii\db\ActiveRecord
     }
     public function getImgUrl() {
         return Url::toRoute('/assets/uploads/').'/'.$this->img;
+    }
+    public function getAddpics(){
+        return $this->hasMany(VarietyAddPic::className(),['variety_id'=>'id']);
     }
 }

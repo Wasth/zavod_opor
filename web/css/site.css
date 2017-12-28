@@ -120,3 +120,17 @@ a.desc:after {
     max-width: 150px;
     max-height: 150px;
 }
+.additional-pics div {
+    display: inline-block;
+}
+.additional-pics div a {
+    display: block;
+}
+.variety-pics img {
+    max-width: 150px;
+    max-height: 150px;
+}
+.variety-pics div {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}

@@ -57,6 +57,7 @@ class ItemController extends Controller
         $model = $this->findModel($id);
         $addPics = $model->additionalPics;
         $varieties = $model->varieties;
+//        var_dump($model->additionalPics);die;
         return $this->render('view', [
             'model' => $model,
             'addPics'=> $addPics,

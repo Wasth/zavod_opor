@@ -51,41 +51,6 @@ $this->title = 'Завод по производсту опор трубопро
                 </a>
             </div>
             <?php endforeach; ?>
-            <!--            <div>-->
-<!--                <img src="assets/img/catalog1.png" alt="catalog_img">-->
-<!--                <p>Опоры ОСТ 36-146-88</p>-->
-<!--                <a href="#">-->
-<!--                    <button>Подробнее</button>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <img src="assets/img/catalog1.png" alt="catalog_img">-->
-<!--                <p>Опоры ОСТ 36-146-88</p>-->
-<!--                <a href="#">-->
-<!--                    <button>Подробнее</button>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <img src="assets/img/catalog1.png" alt="catalog_img">-->
-<!--                <p>Опоры ОСТ 36-146-88</p>-->
-<!--                <a href="#">-->
-<!--                    <button>Подробнее</button>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <img src="assets/img/catalog1.png" alt="catalog_img">-->
-<!--                <p>Опоры ОСТ 36-146-88</p>-->
-<!--                <a href="#">-->
-<!--                    <button>Подробнее</button>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <img src="assets/img/catalog1.png" alt="catalog_img">-->
-<!--                <p>Опоры ОСТ 36-146-88</p>-->
-<!--                <a href="#">-->
-<!--                    <button>Подробнее</button>-->
-<!--                </a>-->
-<!--            </div>-->
         </div>
 
     </div>
@@ -233,7 +198,7 @@ $this->title = 'Завод по производсту опор трубопро
 <div id="historyWrapper">
     <h1 class="block-title">История отгрузок</h1>
     <div id="historyGrid" class="content">
-        <div><img src="assets/img/history1.png"></div>
+        <div><img src="assets/img/history1.jpg"></div>
         <div>
             <h3>АО «Промфинстрой»</h3>
             <p>Город: Москва<br>
@@ -257,9 +222,9 @@ $this->title = 'Завод по производсту опор трубопро
                 Подробности: общий объем продукции составил более 600 тонн
             </p>
         </div>
-        <div><img src="assets/img/history2.png"></div>
+        <div><img src="assets/img/history2.jpg"></div>
 
-        <div><img src="assets/img/history3.png"></div>
+        <div><img src="assets/img/history3.jpg"></div>
         <div><h3>«СМУ #7»</h3>
             <p>
                 Город: Альметьевск, Республика Татарстан.<br>
@@ -283,13 +248,12 @@ $this->title = 'Завод по производсту опор трубопро
                 Сайт: http://npc-gismo.pulscen.ru/<br>
             </p>
         </div>
-        <div><img src="assets/img/history4.png"></div>
+        <div><img src="assets/img/history4.jpg"></div>
     </div>
 </div>
 <div id="contactsWrapper">
     <h1 class="block-title">Контакты</h1>
     <div id="contacts" class="content">
-        <!--<div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=w4szqFdwqSgD-Mrfe1K-5_Z6KEeAI-iu&amp;height=457&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script></div>-->
         <div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A988b6c6cbd7c293a47d11d7838dc1c7c474fab771f55e43a47032089667ff567&amp;width=100%25&amp;height=452&amp;lang=ru_RU&amp;scroll=true"></script></div>
         <div>
             <h2>ООО НПЦ «Механика»</h2>

@@ -1,5 +1,7 @@
 <?php
 
+use yii\helpers\Url;
+
 $this->title = $item->text;
 ?>
 
@@ -107,10 +109,10 @@ $this->title = $item->text;
             </div>
             <div id="slides-tmp">
                 <?php foreach($varieties as $variety): ?>
-                    <div>
+                    <a href="<?= Url::toRoute(['variety','id'=>$variety->id]) ?>">
                         <div style="background-image: url('<?= $variety->getImgUrl() ?>');"></div>
                         <h3><?= $variety->text ?></h3>
-                    </div>
+                    </a>
                 <?php endforeach; ?>
             </div>
         </div>
