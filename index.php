@@ -1,17 +1,17 @@
 <?php
 
+/* @var $this yii\web\View */
+
 use yii\helpers\Url;
 
-$this->title = $item->text;
+$this->title = 'Завод по производсту опор трубопроводов';
 ?>
 
 <header id="headerWrapper">
     <div id="header" class="content">
         <div id="left-block">
-            <a href="/">
-                <img src="assets/img/logo.png">
-                <h1>Завод по производству<br>элементов трубопроводов</h1>
-            </a>
+            <img src="assets/img/logo.png">
+            <h1>Завод по производству<br>элементов трубопроводов</h1>
         </div>
         <div id="right-block">
             <h1 class="number">8 (800) 200-40-80</h1>
@@ -20,68 +20,40 @@ $this->title = $item->text;
         <div class="clear"></div>
     </div>
 </header>
-<div id="cardBlock">
-    <div id="cardContent" class="content">
-        <div id="breadcrumbs">
-            <a href="/">Опоры</a> > <span id="oporaName"><?= $item->text ?></span>
-        </div>
-        <div class="grid-c-2">
+<div id="mainBlockWrapper">
+    <div id="mainBlock" class="content">
+        <h1 id="mainTitle">ОПОРЫ ТРУБОПРОВОДОВ</h1>
+        <h1 id="mainDescription">скользящие, корпусные/бескорпусные,
+            подвижные/неподвижные, приварные хомутовые</h1>
+        <div id="mainGrid">
             <div>
-                <div class="slider" id="curItemGallery">
-                    <div id="slide">
-                        <img src="<?= $item->getImgUrl() ?>">
-                    </div>
-                    <div id="additionalPics">
-                        <?php foreach($item->additionalPics as $adpic): ?>
-                            <div><img src="<?= $adpic->getImgUrl() ?>"></div>
-                        <?php endforeach; ?>
-
-                    </div>
-                </div>
+                <img src="assets/img/main-img.png">
             </div>
-            <div id="info">
-                <h1><?= $item->text ?></h1>
-                <div id="adv" class="grid-c-2">
-                    <div>
-                        <div class="icon" style="background-image: url('assets/img/1adv.png');"></div>
-                        <div class="icon-text"><p>Соответствие ГОСТ, ОСТ, СТП</p></div>
-                    </div>
-                    <div>
-                        <div class="icon" style="background-image: url('assets/img/2adv.png');"></div>
-                        <div class="icon-text"><p>Площадь завода – 3 500 м2.</p></div>
-                    </div>
-                    <div>
-                        <div class="icon" style="background-image: url('assets/img/3adv.png');"></div>
-                        <div class="icon-text"><p> Специальные цены и скидки на объемы</p></div>
-                    </div>
-                    <div>
-                        <div class="icon" style="background-image: url('assets/img/4adv.png');"></div>
-                        <div class="icon-text"><p>В штате работает более 50 человек.</p></div>
-                    </div>
-                    <div>
-                        <div class="icon" style="background-image: url('assets/img/5adv.png');"></div>
-                        <div class="icon-text"><p>Срок изготовления от 1 дня</p></div>
-                    </div>
-                    <div>
-                        <div class="icon" style="background-image: url('assets/img/6adv.png');"></div>
-                        <div class="icon-text"><p>За 2017 год выпустили более 3 000 тонн продукции.</p></div>
-                    </div>
-                    <div>
-                        <div class="icon" style="background-image: url('assets/img/7adv.png');"></div>
-                        <div class="icon-text"><p>Напрямую с завода без наценок</p></div>
-                    </div>
-                    <div>
-                        <div class="icon" style="background-image: url('assets/img/8adv.png');"></div>
-                        <div class="icon-text"><p>Напрямую с завода без наценок</p></div>
-                    </div>
-                </div>
-                <div id="video">
-                    <iframe width="389" height="219" src="https://www.youtube.com/embed/HLCqlc9AJxA?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div>
+            <div>
+                <h2><div class="icon" id="icon1"></div> &bull; Изготавливаем по ГОСТу, ОСТу, чертежам</h2>
+                <h2><div class="icon" id="icon2"></div> &bull; Средний срок изготовления 5-10 дней</h2>
+                <h2><div class="icon" id="icon3"></div> &bull; Собственный отдел проектирования</h2>
+                <h2><div class="icon" id="icon4"></div> &bull; Напрямую с завода без наценок</h2>
             </div>
         </div>
     </div>
 </div>
+<div id="catalogWrapper">
+    <div id="catalog" class="content">
+        <h1 class="block-title">Каталог опор</h1>
+        <div id="catalogGrid">
+            <?php foreach($items as $item): ?>
+            <div>
+                <img src="<?= $item->getImgUrl() ?>" alt="catalog_img">
+                <p><?= $item->text ?></p>
+                <a href="<?= Url::toRoute(['item','id'=>$item->id]) ?>">
+                    <button>ПОДРОБНЕЕ</button>
+                </a>
+            </div>
+            <?php endforeach; ?>
+        </div>
+
+    </div>
 </div>
 <div id="photosWrapper">
     <h1 class="block-title">ФОТОГРАФИИ ГОТОВОЙ ПРОДУКЦИИ</h1>
@@ -99,24 +71,50 @@ $this->title = $item->text;
         </div>
     </div>
 </div>
-<div id="varietyWrapper">
-    <h1 class="block-title">Мы продаем <?= $item->text ?> следующих типов</h1>
-    <div id="varietySlider" class="content">
-        <div class="arrow leftArrow"><img src="assets/img/redleft.png"></div>
-        <div class='slides'>
-            <div class="slidesBlock">
-
+<div id="ownProductionWrapper">
+    <h1 class="block-title">Собственное производство</h1>
+    <div id="ownProductionBlockWrapper">
+        <div id="ownProductionBlock" class="content">
+            <div id="videoBlock">
+                <div id="video">
+                    <iframe width="603" height="329" src="https://www.youtube.com/embed/HLCqlc9AJxA?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div id="advantages">
+                    <div><div class="ownicon" style="background-image: url('assets/img/ownicon1.png')"></div>
+                        <div class="item-text"><h2>Площадь завода – 3 500 м2.</h2></div>
+                    </div>
+                    <div><div class="ownicon" style="background-image: url('assets/img/ownicon2.png')"></div>
+                        <div class="item-text"><h2>В штате работает более 50 человек.</h2></div>
+                    </div>
+                    <div><div class="ownicon" style="background-image: url('assets/img/ownicon3.png')"></div>
+                        <div class="item-text"><h2>За 2017 год выпустили более 3 000 тонн продукции.</h2></div>
+                    </div>
+                    <div><div class="ownicon" style="background-image: url('assets/img/ownicon4.png')"></div>
+                        <div class="item-text"><h2>Производим более 250 тоннметаллоконструкций в месяц.</h2></div>
+                    </div>
+                </div>
             </div>
-            <div id="slides-tmp">
-                <?php foreach($varieties as $variety): ?>
-                    <a href="<?= Url::toRoute(['variety','id'=>$variety->id]) ?>">
-                        <div style="background-image: url('<?= $variety->getImgUrl() ?>');"></div>
-                        <h3><?= $variety->text ?></h3>
-                    </a>
-                <?php endforeach; ?>
+            <div id="ownProductionSlide">
+                <div class="arrow leftArrow"><img src="assets/img/redleft.png"></div>
+                <div class='slides'>
+                    <div class="slidesBlock">
+                        <div>
+                            <div style="background-image: url('assets/img/slider2/1slide.jpg')"></div>
+                            <h2>Сварочный пост</h2>
+                        </div>
+                        <div>
+                            <div style="background-image: url('assets/img/slider2/2slide.jpg')"></div>
+                            <h2>Аккуратная упаковка</h2>
+                        </div>
+                        <div>
+                            <div style="background-image: url('assets/img/slider2/3slide.jpg')"></div>
+                            <h2>Склад металла</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow rightArrow"><img src="assets/img/redright.png"></div>
             </div>
         </div>
-        <div class="arrow rightArrow"><img src="assets/img/redright.png"></div>
     </div>
 </div>
 <div id="ownDesignDepartWrapper">
@@ -256,7 +254,6 @@ $this->title = $item->text;
 <div id="contactsWrapper">
     <h1 class="block-title">Контакты</h1>
     <div id="contacts" class="content">
-        <!--<div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=w4szqFdwqSgD-Mrfe1K-5_Z6KEeAI-iu&amp;height=457&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script></div>-->
         <div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A988b6c6cbd7c293a47d11d7838dc1c7c474fab771f55e43a47032089667ff567&amp;width=100%25&amp;height=452&amp;lang=ru_RU&amp;scroll=true"></script></div>
         <div>
             <h2>ООО НПЦ «Механика»</h2>
