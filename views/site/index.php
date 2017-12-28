@@ -181,7 +181,7 @@ $this->title = 'Завод по производсту опор трубопро
 <div id="partnersWrapper">
     <h1 class="block-title">Поставляем опоры на объекты</h1>
     <div id="partnersGrid" class="content">
-        <div><img src="assets/img/partners/1pic.png" alt=""></div>
+        <div><img src="assets/img/partners/1pic.jpg" alt=""></div>
         <div><img src="assets/img/partners/2pic.png" alt=""></div>
         <div><img src="assets/img/partners/3pic.png" alt=""></div>
         <div><img src="assets/img/partners/4pic.png" alt=""></div>
