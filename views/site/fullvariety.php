@@ -117,7 +117,7 @@ $this->title = $variety->text;
     <h1 class="block-title">ПАСПОРТА НА ИЗДЕЛИЯ И СЕРТИФИКАТЫ</h1>
     <h2>на металл прилагаются к каждой партии продукции</h2>
     <div id="passports" class="content">
-        <img src="assets/img/passports.png">
+        <img src="assets/img/passports.jpg">
     </div>
 </div>
 <div id="deadlinesWrapper">
@@ -163,7 +163,7 @@ $this->title = $variety->text;
 <div id="partnersWrapper">
     <h1 class="block-title">Поставляем опоры на объекты</h1>
     <div id="partnersGrid" class="content">
-        <div><img src="assets/img/partners/1pic.png" alt=""></div>
+        <div><img src="assets/img/partners/1pic.jpg" alt=""></div>
         <div><img src="assets/img/partners/2pic.png" alt=""></div>
         <div><img src="assets/img/partners/3pic.png" alt=""></div>
         <div><img src="assets/img/partners/4pic.png" alt=""></div>
@@ -180,7 +180,7 @@ $this->title = $variety->text;
 <div id="historyWrapper">
     <h1 class="block-title">История отгрузок</h1>
     <div id="historyGrid" class="content">
-        <div><img src="assets/img/history1.png"></div>
+        <div><img src="assets/img/history1.jpg"></div>
         <div>
             <h3>АО «Промфинстрой»</h3>
             <p>Город: Москва<br>
@@ -204,9 +204,9 @@ $this->title = $variety->text;
                 Подробности: общий объем продукции составил более 600 тонн
             </p>
         </div>
-        <div><img src="assets/img/history2.png"></div>
+        <div><img src="assets/img/history2.jpg"></div>
 
-        <div><img src="assets/img/history3.png"></div>
+        <div><img src="assets/img/history3.jpg"></div>
         <div><h3>«СМУ #7»</h3>
             <p>
                 Город: Альметьевск, Республика Татарстан.<br>
@@ -230,7 +230,7 @@ $this->title = $variety->text;
                 Сайт: http://npc-gismo.pulscen.ru/<br>
             </p>
         </div>
-        <div><img src="assets/img/history4.png"></div>
+        <div><img src="assets/img/history4.jpg"></div>
     </div>
 </div>
 <div id="contactsWrapper">
