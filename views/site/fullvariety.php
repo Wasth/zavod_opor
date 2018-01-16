@@ -208,7 +208,7 @@ $this->title = $variety->text;
         <div class="story-img"><img src="assets/img/history2.jpg"></div>
 
         <div class="story-img"><img src="assets/img/history3.jpg"></div>
-        <div class="story-text"><h3>«СМУ #7»</h3>
+        <div class="story-text"><h3>«СМУ 7»</h3>
             <p>
                 Город: Альметьевск, Республика Татарстан.<br>
                 Год работы: 2014-2017 г.<br>
