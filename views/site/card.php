@@ -168,14 +168,15 @@ $this->title = $item->text;
     <h1 class="block-title">РАБОТАЕМ СО ВСЕМИ ТИПАМИ СТАЛИ</h1>
     <div id="allTypesContentWrapper">
         <div id="allTypesContent" class="content">
-            <img src="assets/img/alltypepics.png"><p>
-                Ст3,<br>
-                Ст20,<br>
-                09Г2С,<br>
-                08Х18Н10,<br>
-                12Х18Н10Т,<br>
-                13Х17Н12М2Т,<br>
-                30Х13 и т.д.
+            <img src="assets/img/alltypepics.png">
+            <p>
+                <span>Ст3,</span><br>
+                <span>Ст20,</span><br>
+                <span>09Г2С,</span><br>
+                <span>08Х18Н10,</span><br>
+                <span>12Х18Н10Т,</span><br>
+                <span>13Х17Н12М2Т,</span><br>
+                <span>30Х13 и т.д.</span>
             </p>
         </div>
     </div>
@@ -200,8 +201,8 @@ $this->title = $item->text;
 <div id="historyWrapper">
     <h1 class="block-title">История отгрузок</h1>
     <div id="historyGrid" class="content">
-        <div><img src="assets/img/history1.jpg"></div>
-        <div>
+        <div class="story-img"><img src="assets/img/history1.jpg"></div>
+        <div class="story-text">
             <h3>АО «Промфинстрой»</h3>
             <p>Город: Москва<br>
                 Год работы: с января 2017 г.<br>
@@ -212,7 +213,7 @@ $this->title = $item->text;
             </p>
         </div>
 
-        <div>
+        <div class="story-text">
             <h3>«АРСЛАН»</h3>
             <p>
                 Город: Альметьевск, Республика Татарстан.<br>
@@ -224,10 +225,10 @@ $this->title = $item->text;
                 Подробности: общий объем продукции составил более 600 тонн
             </p>
         </div>
-        <div><img src="assets/img/history2.jpg"></div>
+        <div class="story-img"><img src="assets/img/history2.jpg"></div>
 
-        <div><img src="assets/img/history3.jpg"></div>
-        <div><h3>«СМУ #7»</h3>
+        <div class="story-img"><img src="assets/img/history3.jpg"></div>
+        <div class="story-text"><h3>«СМУ #7»</h3>
             <p>
                 Город: Альметьевск, Республика Татарстан.<br>
                 Год работы: 2014-2017 г.<br>
@@ -238,7 +239,7 @@ $this->title = $item->text;
             </p>
         </div>
 
-        <div><h3>«ГИСМО»</h3>
+        <div class="story-text"><h3>«ГИСМО»</h3>
             <p>
                 Город: Уфа, Республика Башкортостан.<br>
                 Год работы: 2012-2017 г.<br>
@@ -250,7 +251,7 @@ $this->title = $item->text;
                 Сайт: http://npc-gismo.pulscen.ru/<br>
             </p>
         </div>
-        <div><img src="assets/img/history4.jpg"></div>
+        <div class="story-img"><img src="assets/img/history4.jpg"></div>
     </div>
 </div>
 <div id="contactsWrapper">

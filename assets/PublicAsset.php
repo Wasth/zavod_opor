@@ -19,12 +19,12 @@ class PublicAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'assets/css/fonts.css',
-        'assets/css/style.min.css',
-        'assets/css/cardstyles.min.css',
+        'assets/css/style.css',
+        'assets/css/cardstyles.css',
     ];
     public $js = [
         'assets/js/jquery.js',
-        'assets/js/main.min.js',
+        'assets/js/main.js',
     ];
     public $depends = [
 

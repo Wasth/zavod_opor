@@ -386,7 +386,7 @@ h1.block-title {
     float: left;
     margin-right: 30px;
 }
-#allTypesContent p {
+#allTypesContent > p {
     font-size: 25px;
     color: white;
     padding-top: 99px;
@@ -530,3 +530,214 @@ h1.block-title {
 }
 /*--- CARD SLIDER
  */
+@media (max-width: 1080px){ /* tab */
+    .content {
+        width: 90%;
+    }
+    #passports img, #deadlinesContent img {
+        width: 100%;
+    }
+    #partnersGrid div img {
+        width: 100%;
+    }
+    #deliveryContent img{
+        width: 100%;
+    }
+    #ownDesignDepartContent {
+        display: block;
+    }
+    #ownDesignDepart,#mainBlockWrapper,
+    #ownProductionBlockWrapper,#allTypesContentWrapper, #deliveryBg {
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #catalogGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #mainBlock {
+        padding: 10px 0;
+    }
+    #mainBlock #mainGrid {
+        display: block;
+        margin-top: 15px;
+    }
+    #mainGrid div > img {
+        display: none;
+    }
+    #mainGrid div > h2 {
+        text-align: left;
+        margin-left: 30px;
+    }
+    #videoBlock {
+        display: block;
+    }
+    #advantages div {
+        width: 375px;
+        margin: 0 auto;
+    }
+    #allTypesContent img {
+        display: none;
+    }
+    #allTypesContent > p {
+        text-align: left;
+        font-size: 50px;
+        font-weight: bold;
+        padding: 10px 0;
+        margin-left: 30px;
+    }
+    #allTypesContent p span::before {
+        content: "•";
+        font-size: 90px;
+        margin-right: 20px;
+    }
+    #contacts {
+        display: block;
+    }
+    h1.block-title {
+        font-size: 35px;
+    }
+    #photoSlider {
+        width: 692px;
+    }
+    #photoSliderWrapper {
+        height: 270px;
+    }
+    #photosWrapper .slides {
+        height: 270px;
+    }
+    #photoSlider .slides > .slidesBlock > div {
+        height: 170px;
+    }
+    #photoSlider .slides > .slidesBlock > div > div {
+        height: 170px;
+    }
+    #photoSlider .arrow img {
+        top: 100px;
+    }
+    #ownProductionSlide {
+        width: 692px;
+        margin: 0 auto;
+    }
+    #ownProductionSlide > .slides > .slidesBlock > div > div {
+        height: 200px;
+    }
+    #ownProductionSlide .slides div h2 {
+        font-size: 20px;
+    }
+    #ownProductionSlide .arrow img {
+        top: 120px;
+    }
+    #ownProductionSlide .slides {
+        height: 300px;
+        overflow: hidden;
+    }
+    #historyGrid {
+        grid-template-columns: 1fr;
+    }
+    .story-img {
+        display: none;
+    }
+    #historyGrid .story-text h3 {
+        font-size: 24px;
+    }
+    #historyGrid .story-text p {
+        font-size: 20px;
+    }
+    #video iframe {
+        width: 100%;
+    }
+}
+@media (max-width: 740px) {
+    #photoSlider {
+        width: 100%;
+    }
+    #ownProductionSlide {
+        width: 100%;
+    }
+    .arrow img{
+        display: none;
+    }
+}
+@media (max-width: 480px) { /* mobile */
+    h1.block-title, #catalog h1 {
+        font-size: 30px;
+    }
+    h1.block-title::before, h1.block-title::after {
+        display: none;
+    }
+    #ownDesignDepartContent div img {
+        max-width: 100%;
+    }
+    #header #right-block, #header #left-block,
+    #footer #left-block-footer, #footer #right-block-footer{
+        float: none;
+        clear: both;
+        text-align: center;
+    }
+    #header #right-block, #footer #right-block-footer {
+        margin-top: 120px;
+    }
+    .content {
+        width: 100%;
+    }
+    #mainBlockWrapper {
+        height: auto;
+    }
+    #videoBlock,#partnersGrid, #historyGrid {
+        display: block;
+    }
+    #video iframe {
+        width: 100%;
+    }
+    #ownDesignDepartContent {
+        display: block;
+    }
+    #passports img {
+        width: 100%;
+    }
+    #deadlinesContent img {
+        width: 100%;
+    }
+    #catalogGrid {
+        grid-template-columns: 1fr;
+    }
+    #advantages div {
+        max-width: 100%;
+    }
+    #mainBlock #mainTitle {
+        font-size: 40px;
+        padding: 0 15px;
+    }
+    #mainBlock #mainDescription {
+        font-size: 25px;
+    }
+    #mainGrid div > h2 {
+        text-align: left;
+        padding: 0 10px;
+        margin: 0;
+        text-align: center;
+    }
+    #mainGrid .icon {
+        position: static;
+        display: block;
+        margin: 10px auto 20px;
+    }
+    #deliveryContent img {
+        display: none;
+    }
+    #deliveryContent p {
+        position: static;
+        margin: 10px;
+    }
+
+    #deliveryWrapper h2, #deadlinesContent h2 {
+        font-size: 20px;
+    }
+    #contacts h2, #contacts h3 {
+        margin-left: 10px;
+    }
+    #deliveryContent {
+        padding: 15px;
+    }
+}

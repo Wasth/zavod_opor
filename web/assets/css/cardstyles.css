@@ -196,3 +196,23 @@
 #slides-tmp {
     display: none;
 }
+@media (max-width: 1080px) {
+    #cardContent > .grid-c-2 {
+        display: block;
+    }
+    #video iframe {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    #cardContent > .grid-c-2 {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    #video iframe {
+        width: 100%;
+    }
+    #cardBlock #slide {
+        width: 100%;
+    }
+}
