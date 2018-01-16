@@ -25,6 +25,8 @@ PublicAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+
+    <meta name="mailru-domain" content="XR0aAwLFXBZomEn0" />
 </head>
 <body>
 <?php $this->beginBody() ?>
