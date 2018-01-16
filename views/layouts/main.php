@@ -24,9 +24,9 @@ PublicAsset::register($this);
     <link rel="icon" href="<?= Url::toRoute('assets/img/logo.png') ?>">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <meta name="mailru-domain" content="XR0aAwLFXBZomEn0" />
     <?php $this->head() ?>
 
-    <meta name="mailru-domain" content="XR0aAwLFXBZomEn0" />
 </head>
 <body>
 <?php $this->beginBody() ?>
