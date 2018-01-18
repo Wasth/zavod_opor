@@ -14,7 +14,7 @@ $this->title = $variety->text;
             </a>
         </div>
         <div id="right-block">
-            <h1 class="number">8 (800) 200-40-80</h1>
+            <h1 class="number">8 (800) 350-09-19</h1>
             <h1 class="email"><a href="mailto:sale@metiz-mk.ru">sale@metiz-mk.ru</a></h1>
         </div>
         <div class="clear"></div>
@@ -240,10 +240,10 @@ $this->title = $variety->text;
         <!--<div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=w4szqFdwqSgD-Mrfe1K-5_Z6KEeAI-iu&amp;height=457&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script></div>-->
         <div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A988b6c6cbd7c293a47d11d7838dc1c7c474fab771f55e43a47032089667ff567&amp;width=100%25&amp;height=452&amp;lang=ru_RU&amp;scroll=true"></script></div>
         <div>
-            <h2>ООО НПЦ «Механика»</h2>
+            <h2>ООО "ПЭТ"</h2>
             <h3>Расчет заказа за 30 минут</h3>
             <h3>Быстрая доставка по всей России</h3>
-            <h3>8 (800) 200-40-80 zakaz@metiz-mk.ru</h3>
+            <h3>8 (800) 350-09-19 <br> zakaz@metiz-mk.ru</h3>
         </div>
     </div>
 </div>
@@ -254,7 +254,7 @@ $this->title = $variety->text;
             <h1>Завод по производству<br>элементов трубопроводов</h1>
         </div>
         <div id="right-block-footer">
-            <h1 class="number">8 (800) 200-40-80</h1>
+            <h1 class="number">8 (800) 350-09-19</h1>
             <h1 class="email"><a href="mailto:sale@metiz-mk.ru">sale@metiz-mk.ru</a></h1>
         </div>
         <div class="clear"></div>
