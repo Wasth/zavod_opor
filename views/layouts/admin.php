@@ -40,6 +40,7 @@ $curDomain = Yii::$app->request->serverName;
                 ['label' => 'Главная', 'url' => ['/admin/default/index']],
                 ['label' => 'Элементы в каталоге', 'url' => ['/admin/item/index']],
                 ['label' => 'Открыть сайт', 'url' => ['/']],
+                ['label' => 'Выйти из аккаунта', 'url' => ['/exitadmin']],
             ],
         ]);
         NavBar::end();

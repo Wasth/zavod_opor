@@ -33,7 +33,48 @@ PublicAsset::register($this);
 
 <div class="wrap">
     <div class="container">
+        <header id="headerWrapper">
+            <div id="header" class="content">
+                <div id="left-block">
+                    <a href="/">
+                        <img src="assets/img/logo.png">
+                        <h1>Завод по производству<br>элементов трубопроводов</h1>
+                    </a>
+                </div>
+                <div id="right-block">
+                    <h1 class="number">8 (800) 200-40-80</h1>
+                    <h1 class="email"><a href="mailto:sale@metiz-mk.ru">sale@metiz-mk.ru</a></h1>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <div id="menu">
+            <div id="menuWrapper" class="">
+                <div id="menuContainer" class="content">
+                    <a href="/">
+                        <div class="menu-item">Главная</div>
+                    </a><a href="">
+                        <div class="menu-item">О компании</div>
+                    </a><a href="">
+                        <div class="menu-item">Контакты</div>
+                    </a>
+                </div>
+            </div>
+        </div>
         <?= $content ?>
+        <footer id="footerWrapper">
+            <div id="footer" class="content">
+                <div id="left-block-footer">
+                    <img src="assets/img/logo.png">
+                    <h1>Завод по производству<br>элементов трубопроводов</h1>
+                </div>
+                <div id="right-block-footer">
+                    <h1 class="number">8 (800) 200-40-80</h1>
+                    <h1 class="email"><a href="mailto:sale@metiz-mk.ru">sale@metiz-mk.ru</a></h1>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </footer>
     </div>
 </div>
 

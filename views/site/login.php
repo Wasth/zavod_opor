@@ -7,18 +7,18 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
-$this->title = 'Admin Panel';
+$this->title = 'Вход для администратора';
 ?>
 
-<div>
-    <h1>AdminMenu</h1>
+<div id="adminWrapper">
+    <h1>Вход для администратора</h1>
 
     <?php $form = ActiveForm::begin() ?>
 
-    <?= $form->field($model,'username')->textInput()->label("Username") ?>
-    <?= $form->field($model,'password')->passwordInput()->label("Password") ?>
+    <?= $form->field($model,'username')->textInput(['placeholder'=>'Логин'])->label("") ?>
+    <?= $form->field($model,'password')->passwordInput(['placeholder'=>'Пароль'])->label("") ?>
 
-    <?= Html::submitButton('Sign in') ?>
+    <?= Html::submitButton('Войти') ?>
 
     <?php ActiveForm::end() ?>
 </div>

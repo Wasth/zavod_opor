@@ -66,18 +66,22 @@ class SiteController extends Controller
     }
     public function actionItem($id){
         $item = Item::findOne($id);
-
-        return $this->render('card',[
-            'item'=>$item,
-            'varieties' => $item->varieties
-        ]);
+        if($item){
+            return $this->render('card',[
+                'item'=>$item,
+                'varieties' => $item->varieties
+            ]);
+        }
+        return $this->render('error');
     }
     public function actionVariety($id){
         $variety = Variety::findOne($id);
-
-        return $this->render('fullvariety',[
-            "variety" => $variety,
-        ]);
+        if($variety) {
+            return $this->render('fullvariety', [
+                "variety" => $variety,
+            ]);
+        }
+        return $this->render('error');
     }
     public function actionMyadmin()
     {
@@ -87,7 +91,7 @@ class SiteController extends Controller
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            return $this->redirect('/admin/');
         }
         return $this->render('login', [
             'model' => $model,
@@ -96,7 +100,7 @@ class SiteController extends Controller
     public function actionExitadmin(){
         Yii::$app->user->logout();
 
-        return $this->goHome();
+        return $this->redirect('/myadmin');
     }
 
 
