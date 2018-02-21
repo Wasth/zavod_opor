@@ -53,9 +53,11 @@ PublicAsset::register($this);
                 <div id="menuContainer" class="content">
                     <a href="/">
                         <div class="menu-item">Главная</div>
-                    </a><a href="">
-                        <div class="menu-item">О компании</div>
-                    </a><a href="">
+                    </a><a href="<?= Url::toRoute(['catalog']) ?>">
+                        <div class="menu-item">Каталог</div>
+                    </a><a href="<?= Url::toRoute(['media']) ?>">
+                        <div class="menu-item">Фото и видео</div>
+                    </a><a href="<?= Url::toRoute(['contacts']) ?>">
                         <div class="menu-item">Контакты</div>
                     </a>
                 </div>

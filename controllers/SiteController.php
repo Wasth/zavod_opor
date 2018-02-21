@@ -104,4 +104,17 @@ class SiteController extends Controller
     }
 
 
+    public function actionCatalog(){
+        $items = Item::find()->all();
+        return $this->render('catalog',[
+            'items' => $items
+        ]);
+    }
+    public function actionMedia(){
+        return $this->render('media');
+    }
+    public function actionContacts(){
+        return $this->render('contacts');
+    }
+
 }

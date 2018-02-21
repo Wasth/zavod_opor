@@ -44,9 +44,12 @@ h1.block-title {
     opacity: 0.5;
     transition: 0.5s;
 }
+.minimal-h {
+    min-height: calc(100vh - 154px - 124px);
+}
 #ErrorWrapper {
     text-align: center;
-    height: calc(100vh - 154px - 124px);
+
 }
 #ErrorWrapper h1 {
     padding-top: 100px;
@@ -127,6 +130,7 @@ h1.block-title {
 div.menu-item {
     display: inline-block;
     padding: 10px 15px;
+    margin-right: 50px;
 }
 div.menu-item:hover {
     background-color: rgba(0,0,0,0.1);
@@ -698,6 +702,12 @@ div.menu-item:hover {
     #video iframe {
         width: 100%;
     }
+    #menuContainer {
+        text-align: center;
+    }
+    div.menu-item {
+        margin-right: 0px;
+    }
 }
 @media (max-width: 740px) {
     #photoSlider {
@@ -709,6 +719,7 @@ div.menu-item:hover {
     .arrow img{
         display: none;
     }
+
 }
 @media (max-width: 480px) { /* mobile */
     h1.block-title, #catalog h1 {
