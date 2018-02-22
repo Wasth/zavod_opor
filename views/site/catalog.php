@@ -9,7 +9,7 @@
                     <div>
                         <img src="<?= $item->getImgUrl() ?>" alt="catalog_img">
                         <p><?= $item->text ?></p>
-                        <a href="<?= Url::toRoute(['item','id'=>$item->id]) ?>">
+                        <a href="<?= Url::toRoute(['item/'.$item->id]) ?>">
                             <button>ПОДРОБНЕЕ</button>
                         </a>
                     </div>

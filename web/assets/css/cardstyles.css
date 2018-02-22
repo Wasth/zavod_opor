@@ -199,6 +199,25 @@
 #slides-tmp {
     display: none;
 }
+#varietyList h3{
+    display: inline-block;
+    color: #ff2727;
+    font-size: 48px;
+    margin: 0 15px;
+}
+#varietyList h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#varietyList {
+    text-align: center;
+    border: 1px solid #222222;
+    border-radius: 3px;
+    margin-top: 35px;
+}
+#varietyList a {
+    text-decoration: none;
+}
 @media (max-width: 1080px) {
     #cardContent > .grid-c-2 {
         display: block;

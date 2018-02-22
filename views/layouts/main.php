@@ -37,7 +37,7 @@ PublicAsset::register($this);
             <div id="header" class="content">
                 <div id="left-block">
                     <a href="/">
-                        <img src="assets/img/logo.png">
+                        <img src="/assets/img/logo.png">
                         <h1>Завод по производству<br>элементов трубопроводов</h1>
                     </a>
                 </div>
@@ -67,7 +67,7 @@ PublicAsset::register($this);
         <footer id="footerWrapper">
             <div id="footer" class="content">
                 <div id="left-block-footer">
-                    <img src="assets/img/logo.png">
+                    <img src="/assets/img/logo.png">
                     <h1>Завод по производству<br>элементов трубопроводов</h1>
                 </div>
                 <div id="right-block-footer">

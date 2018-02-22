@@ -28,35 +28,35 @@ $this->title = $variety->text;
                 <h1><?= $item->text ?></h1>
                 <div id="adv" class="grid-c-2">
                     <div>
-                        <div class="icon" style="background-image: url('assets/img/1adv.png');"></div>
+                        <div class="icon" style="background-image: url('/assets/img/1adv.png');"></div>
                         <div class="icon-text"><p>Соответствие ГОСТ, ОСТ, СТП</p></div>
                     </div>
                     <div>
-                        <div class="icon" style="background-image: url('assets/img/2adv.png');"></div>
+                        <div class="icon" style="background-image: url('/assets/img/2adv.png');"></div>
                         <div class="icon-text"><p>Площадь завода – 3 500 м2.</p></div>
                     </div>
                     <div>
-                        <div class="icon" style="background-image: url('assets/img/3adv.png');"></div>
+                        <div class="icon" style="background-image: url('/assets/img/3adv.png');"></div>
                         <div class="icon-text"><p> Специальные цены и скидки на объемы</p></div>
                     </div>
                     <div>
-                        <div class="icon" style="background-image: url('assets/img/4adv.png');"></div>
+                        <div class="icon" style="background-image: url('/assets/img/4adv.png');"></div>
                         <div class="icon-text"><p>В штате работает более 50 человек.</p></div>
                     </div>
                     <div>
-                        <div class="icon" style="background-image: url('assets/img/5adv.png');"></div>
+                        <div class="icon" style="background-image: url('/assets/img/5adv.png');"></div>
                         <div class="icon-text"><p>Срок изготовления от 1 дня</p></div>
                     </div>
                     <div>
-                        <div class="icon" style="background-image: url('assets/img/6adv.png');"></div>
+                        <div class="icon" style="background-image: url('/assets/img/6adv.png');"></div>
                         <div class="icon-text"><p>За 2017 год выпустили более 3 000 тонн продукции.</p></div>
                     </div>
                     <div>
-                        <div class="icon" style="background-image: url('assets/img/7adv.png');"></div>
+                        <div class="icon" style="background-image: url('/assets/img/7adv.png');"></div>
                         <div class="icon-text"><p>Напрямую с завода без наценок</p></div>
                     </div>
                     <div>
-                        <div class="icon" style="background-image: url('assets/img/8adv.png');"></div>
+                        <div class="icon" style="background-image: url('/assets/img/8adv.png');"></div>
                         <div class="icon-text"><p>Напрямую с завода без наценок</p></div>
                     </div>
                 </div>
@@ -72,15 +72,15 @@ $this->title = $variety->text;
     <h1 class="block-title">ФОТОГРАФИИ ГОТОВОЙ ПРОДУКЦИИ</h1>
     <div id="photoSliderWrapper">
         <div id="photoSlider" data-slider-id="1" class="content">
-            <div class="arrow leftArrow"><img src="assets/img/left.png"></div>
+            <div class="arrow leftArrow"><img src="/assets/img/left.png"></div>
             <div class='slides'>
                 <div class="slidesBlock">
-                    <div><div style="background-image: url('assets/img/slider1/1slide.jpg')"></div></div>
-                    <div><div style="background-image: url('assets/img/slider1/2slide.jpg')"></div></div>
-                    <div><div style="background-image: url('assets/img/slider1/3slide.jpg')"></div></div>
+                    <div><div style="background-image: url('/assets/img/slider1/1slide.jpg')"></div></div>
+                    <div><div style="background-image: url('/assets/img/slider1/2slide.jpg')"></div></div>
+                    <div><div style="background-image: url('/assets/img/slider1/3slide.jpg')"></div></div>
                 </div>
             </div>
-            <div class="arrow rightArrow"><img src="assets/img/right.png"></div>
+            <div class="arrow rightArrow"><img src="/assets/img/right.png"></div>
         </div>
     </div>
 </div>
@@ -89,11 +89,11 @@ $this->title = $variety->text;
     <div id="ownDesignDepart">
         <div id="ownDesignDepartContent" class="content">
             <div>
-                <img src="assets/img/scheme1.png">
+                <img src="/assets/img/scheme1.png">
             </div>
             <div>
                 <div></div>
-                <img src="assets/img/scheme2.png">
+                <img src="/assets/img/scheme2.png">
             </div>
         </div>
     </div>
@@ -102,7 +102,7 @@ $this->title = $variety->text;
     <h1 class="block-title">ПАСПОРТА НА ИЗДЕЛИЯ И СЕРТИФИКАТЫ</h1>
     <h2>на металл прилагаются к каждой партии продукции</h2>
     <div id="passports" class="content">
-        <img src="assets/img/passports.jpg">
+        <img src="/assets/img/passports.jpg">
     </div>
 </div>
 <div id="deadlinesWrapper">
@@ -110,7 +110,7 @@ $this->title = $variety->text;
         <h1 class="block-title">Сроки работы</h1>
         <h2>Средний срок производства партии:<br>
             7–10 дней против 20–30 у большинства производителей</h2>
-        <img src="assets/img/deadlines.png">
+        <img src="/assets/img/deadlines.png">
     </div>
 </div>
 <div id="deliveryWrapper">
@@ -125,7 +125,7 @@ $this->title = $variety->text;
                 До Екатеринбурга и Челябинска – 1-2 дня<br>
                 Среднее время доставки до Москвы – 2 дня<br>
             </p>
-            <img src="assets/img/delivery.png">
+            <img src="/assets/img/delivery.png">
         </div>
     </div>
 </div>
@@ -133,7 +133,7 @@ $this->title = $variety->text;
     <h1 class="block-title">РАБОТАЕМ СО ВСЕМИ ТИПАМИ СТАЛИ</h1>
     <div id="allTypesContentWrapper">
         <div id="allTypesContent" class="content">
-            <img src="assets/img/alltypepics.png">
+            <img src="/assets/img/alltypepics.png">
             <p>
                 <span>Ст3,</span><br>
                 <span>Ст20,</span><br>
@@ -149,24 +149,24 @@ $this->title = $variety->text;
 <div id="partnersWrapper">
     <h1 class="block-title">Поставляем опоры на объекты</h1>
     <div id="partnersGrid" class="content">
-        <div><img src="assets/img/partners/1pic.jpg" alt=""></div>
-        <div><img src="assets/img/partners/2pic.png" alt=""></div>
-        <div><img src="assets/img/partners/3pic.png" alt=""></div>
-        <div><img src="assets/img/partners/4pic.png" alt=""></div>
-        <div><img src="assets/img/partners/5pic.png" alt=""></div>
-        <div><img src="assets/img/partners/6pic.png" alt=""></div>
-        <div><img src="assets/img/partners/7pic.png" alt=""></div>
-        <div><img src="assets/img/partners/8pic.png" alt=""></div>
-        <div><img src="assets/img/partners/9pic.png" alt=""></div>
-        <div><img src="assets/img/partners/10pic.png" alt=""></div>
-        <div><img src="assets/img/partners/11pic.png" alt=""></div>
-        <div><img src="assets/img/partners/12pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/1pic.jpg" alt=""></div>
+        <div><img src="/assets/img/partners/2pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/3pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/4pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/5pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/6pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/7pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/8pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/9pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/10pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/11pic.png" alt=""></div>
+        <div><img src="/assets/img/partners/12pic.png" alt=""></div>
     </div>
 </div>
 <div id="historyWrapper">
     <h1 class="block-title">История отгрузок</h1>
     <div id="historyGrid" class="content">
-        <div class="story-img"><img src="assets/img/history1.jpg"></div>
+        <div class="story-img"><img src="/assets/img/history1.jpg"></div>
         <div class="story-text">
             <h3>АО «Промфинстрой»</h3>
             <p>Город: Москва<br>
@@ -190,9 +190,9 @@ $this->title = $variety->text;
                 Подробности: общий объем продукции составил более 600 тонн
             </p>
         </div>
-        <div class="story-img"><img src="assets/img/history2.jpg"></div>
+        <div class="story-img"><img src="/assets/img/history2.jpg"></div>
 
-        <div class="story-img"><img src="assets/img/history3.jpg"></div>
+        <div class="story-img"><img src="/assets/img/history3.jpg"></div>
         <div class="story-text"><h3>«СМУ 7»</h3>
             <p>
                 Город: Альметьевск, Республика Татарстан.<br>
@@ -216,7 +216,7 @@ $this->title = $variety->text;
                 Сайт: http://npc-gismo.pulscen.ru/<br>
             </p>
         </div>
-        <div class="story-img"><img src="assets/img/history4.jpg"></div>
+        <div class="story-img"><img src="/assets/img/history4.jpg"></div>
     </div>
 </div>
 <div id="contactsWrapper">

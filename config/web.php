@@ -46,7 +46,9 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                "<action>" => "site/<action>"
+                "<action>" => "site/<action>",
+                "item/<id:\d+>" => "site/item",
+                "variety/<id:\w+>" => "site/variety",
             ],
         ],
 

@@ -10,7 +10,7 @@ var slider2data;
 var varietySlider = 0;
 $(document).ready(function () {
     $.getJSON({
-        url:"assets/img/slider2/slidestext.json",
+        url:"/assets/img/slider2/slidestext.json",
         success: function (data) {
             slider2data = data;
         }
@@ -30,9 +30,9 @@ $(document).ready(function () {
                     "left":"834px"
                 });
                     $("#photoSlider .slides .slidesBlock").empty();
-                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider1/'+(slider1*3 - 2)+'slide.jpg\');"></div></div>');
-                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider1/'+(slider1*3 - 1)+'slide.jpg\'); "></div></div>');
-                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider1/'+(slider1*3)+'slide.jpg\');"></div></div>');
+                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider1/'+(slider1*3 - 2)+'slide.jpg\');"></div></div>');
+                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider1/'+(slider1*3 - 1)+'slide.jpg\'); "></div></div>');
+                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider1/'+(slider1*3)+'slide.jpg\');"></div></div>');
                     $("#photoSlider .slides .slidesBlock").animate({
                         left:"0px"
                     },100);
@@ -51,9 +51,9 @@ $(document).ready(function () {
                 });
                 setTimeout(function () {
                     $("#photoSlider .slides .slidesBlock").empty();
-                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider1/'+(slider1*3 - 2)+'slide.jpg\');"></div></div>');
-                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider1/'+(slider1*3 - 1)+'slide.jpg\'); "></div></div>');
-                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider1/'+(slider1*3)+'slide.jpg\');"></div></div>');
+                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider1/'+(slider1*3 - 2)+'slide.jpg\');"></div></div>');
+                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider1/'+(slider1*3 - 1)+'slide.jpg\'); "></div></div>');
+                    $("#photoSlider .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider1/'+(slider1*3)+'slide.jpg\');"></div></div>');
                     $("#photoSlider .slides .slidesBlock").animate({
                         left:"0px"
                     },100);
@@ -75,9 +75,9 @@ $(document).ready(function () {
                     "left":"834px"
                 });
                 $("#ownProductionSlide .slides .slidesBlock").empty();
-                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider2/'+(slider2*3 - 2)+'slide.jpg\');"></div><h2>'+slider2data[(slider2*3 - 2)+""]+'</h2></div>');
-                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider2/'+(slider2*3 - 1)+'slide.jpg\'); "></div><h2>'+slider2data[(slider2*3 - 1)+""]+'</h2></div>');
-                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider2/'+(slider2*3)+'slide.jpg\');"></div><h2>'+slider2data[(slider2*3)+""]+'</h2></div>');
+                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider2/'+(slider2*3 - 2)+'slide.jpg\');"></div><h2>'+slider2data[(slider2*3 - 2)+""]+'</h2></div>');
+                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider2/'+(slider2*3 - 1)+'slide.jpg\'); "></div><h2>'+slider2data[(slider2*3 - 1)+""]+'</h2></div>');
+                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider2/'+(slider2*3)+'slide.jpg\');"></div><h2>'+slider2data[(slider2*3)+""]+'</h2></div>');
                 $("#ownProductionSlide .slides .slidesBlock").animate({
                     left:"0px"
                 },100);
@@ -95,9 +95,9 @@ $(document).ready(function () {
                     "left":"-834px"
                 });
                 $("#ownProductionSlide .slides .slidesBlock").empty();
-                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider2/'+(slider2*3 - 2)+'slide.jpg\');"></div><h2>'+slider2data[(slider2*3 - 2)+""]+'</h2></div>');
-                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider2/'+(slider2*3 - 1)+'slide.jpg\'); "></div><h2>'+slider2data[(slider2*3 - 1)+""]+'</h2></div>');
-                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'assets/img/slider2/'+(slider2*3)+'slide.jpg\');"></div><h2>'+slider2data[(slider2*3)+""]+'</h2></div>');
+                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider2/'+(slider2*3 - 2)+'slide.jpg\');"></div><h2>'+slider2data[(slider2*3 - 2)+""]+'</h2></div>');
+                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider2/'+(slider2*3 - 1)+'slide.jpg\'); "></div><h2>'+slider2data[(slider2*3 - 1)+""]+'</h2></div>');
+                $("#ownProductionSlide .slides .slidesBlock").append('<div><div style="background-image: url(\'/assets/img/slider2/'+(slider2*3)+'slide.jpg\');"></div><h2>'+slider2data[(slider2*3)+""]+'</h2></div>');
                 $("#ownProductionSlide .slides .slidesBlock").animate({
                     left:"0px"
                 },100);
