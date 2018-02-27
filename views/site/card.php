@@ -62,12 +62,13 @@ $this->title = $item->text;
                     </div>
                 </div>
                 <div id="video">
-                    <iframe width="389" height="219" src="https://www.youtube.com/embed/HLCqlc9AJxA?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="389" height="219" src="https://www.youtube.com/embed/GTPpP8zgy9o?ecver=1" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<?= $this->render('/blocks/form') ?>
 </div>
 <div id="photosWrapper">
     <h1 class="block-title">ФОТОГРАФИИ ГОТОВОЙ ПРОДУКЦИИ</h1>

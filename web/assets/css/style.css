@@ -140,6 +140,7 @@ div.menu-item:hover {
 #mainBlockWrapper {
     background-image: url("../img/main-bg.jpg");
     height: 660px;
+    margin-bottom: 50px;
 }
 #mainBlock {
     padding-top: 72px;
@@ -199,7 +200,7 @@ div.menu-item:hover {
 /*--- CATALOG
  */
 #catalogWrapper {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 #catalog h1 {
     text-align: center;
@@ -583,9 +584,102 @@ div.menu-item:hover {
     font-size: 30px;
     text-decoration: none;
 }
+/*---
+    ФОРМА ЗАЯВКИ
+*/
+#formContent input[type=text], #formContent textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ff4a35;
+    resize: none;
+    font-size: 15px;
+}
+#formContent form {
+    padding: 25px 0;
+}
+#formContent .grid-c-3 {
+    grid-gap: 50px;
+
+}
+#formContent p {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+#formContent form {
+    text-align: center;
+}
+#formContent input[type=file] {
+    display: none;
+}
+#formContent label {
+    background: white;
+    color: #ff4a35;
+    border: 2px #ff4a35 dashed;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px;
+    margin-top: 17px;
+    text-transform: uppercase;
+    transition: 0.25s;
+}
+#formContent label img   {
+    position: relative;
+    top: 12px;
+}
+#formContent label:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.25s;
+}
+#formContent button {
+    background: #ff4a35;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 12px 20px;
+    margin-top: 17px;
+    text-transform: uppercase;
+    transition: 0.25s;
+}
+#formContent button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.25s;
+}
+#formContent button img {
+    position: relative;
+    top: 12px;
+}
+
+/*--- Фото и видео
+ */
+#photos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 10px;
+}
+
+#photos div {
+    height: 184px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+#photos img {
+    width: 190% ;
+}
+
 /*--- CARD SLIDER
  */
 @media (max-width: 1080px){ /* tab */
+    #photos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        margin-bottom: 10px;
+    }
     .content {
         width: 90%;
     }
@@ -722,6 +816,12 @@ div.menu-item:hover {
 
 }
 @media (max-width: 480px) { /* mobile */
+    #photos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        margin-bottom: 10px;
+    }
     h1.block-title, #catalog h1 {
         font-size: 30px;
     }

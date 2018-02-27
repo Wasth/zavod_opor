@@ -105,7 +105,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#curItemGallery img").click(function () {
+    $("#curItemGallery img, #photos img").click(function () {
         $("body").prepend("<div id='popupWrapper'><div id='popup'><img class='full-img' src='"+$(this).attr("src")+"'></div></div>");
         $("#popupWrapper").click(function () {
             $("#popupWrapper").remove();

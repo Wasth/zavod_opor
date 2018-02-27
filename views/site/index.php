@@ -2,6 +2,7 @@
 
 /* @var $this yii\web\View */
 
+use app\models\ZayavkaForm;
 use yii\helpers\Url;
 
 $this->title = 'Завод по производсту опор трубопроводов';
@@ -26,6 +27,7 @@ $this->title = 'Завод по производсту опор трубопро
         </div>
     </div>
 </div>
+<?= $this->render('/blocks/form') ?>
 <div id="catalogWrapper">
     <div id="catalog" class="content">
         <h1 class="block-title">Каталог опор</h1>
@@ -65,7 +67,7 @@ $this->title = 'Завод по производсту опор трубопро
         <div id="ownProductionBlock" class="content">
             <div id="videoBlock">
                 <div id="video">
-                    <iframe width="603" height="329" src="https://www.youtube.com/embed/HLCqlc9AJxA?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="603" height="329" src="https://www.youtube.com/embed/GTPpP8zgy9o?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div id="advantages">
                     <div><div class="ownicon" style="background-image: url('/assets/img/ownicon1.png')"></div>

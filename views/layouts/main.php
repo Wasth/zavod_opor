@@ -59,6 +59,8 @@ PublicAsset::register($this);
                         <div class="menu-item">Фото и видео</div>
                     </a><a href="<?= Url::toRoute(['contacts']) ?>">
                         <div class="menu-item">Контакты</div>
+                    </a><a href="<?= Url::toRoute(['order']) ?>">
+                        <div class="menu-item">Заказать</div>
                     </a>
                 </div>
             </div>

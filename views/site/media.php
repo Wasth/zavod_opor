@@ -1,21 +1,7 @@
 <?php $this->title = 'Фото и видео' ?>
-<div id="photosWrapper" style="margin-top: 0">
-    <div id="photoSliderWrapper" style="margin-top: 0">
-        <div id="photoSlider" data-slider-id="1" class="content">
-            <div class="arrow leftArrow"><img src="/assets/img/left.png"></div>
-            <div class='slides'>
-                <div class="slidesBlock">
-                    <div><div style="background-image: url('/assets/img/slider1/1slide.jpg')"></div></div>
-                    <div><div style="background-image: url('/assets/img/slider1/2slide.jpg')"></div></div>
-                    <div><div style="background-image: url('/assets/img/slider1/3slide.jpg')"></div></div>
-                </div>
-            </div>
-            <div class="arrow rightArrow"><img src="/assets/img/right.png"></div>
-        </div>
-    </div>
-</div>
+
 <div id="ownProductionWrapper">
-    <div id="ownProductionBlockWrapper">
+    <div id="ownProductionBlockWrapper" style="height: auto; margin-top: 0;">
         <div id="ownProductionBlock" class="content">
             <div id="videoBlock">
                 <div id="video">
@@ -36,26 +22,41 @@
                     </div>
                 </div>
             </div>
-            <div id="ownProductionSlide">
-                <div class="arrow leftArrow"><img src="/assets/img/redleft.png"></div>
-                <div class='slides'>
-                    <div class="slidesBlock">
-                        <div>
-                            <div style="background-image: url('/assets/img/slider2/1slide.jpg')"></div>
-                            <h2>Сварочный пост</h2>
-                        </div>
-                        <div>
-                            <div style="background-image: url('/assets/img/slider2/2slide.jpg')"></div>
-                            <h2>Аккуратная упаковка</h2>
-                        </div>
-                        <div>
-                            <div style="background-image: url('/assets/img/slider2/3slide.jpg')"></div>
-                            <h2>Склад металла</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="arrow rightArrow"><img src="/assets/img/redright.png"></div>
-            </div>
         </div>
+    </div>
+</div>
+<div id="photosWrapper">
+    <div id="photos" class="content">
+        <div><div><img src="/assets/img/slider1/1slide.jpg" alt=""></div></div>
+        <div><img src="/assets/img/slider1/2slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/3slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/4slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/5slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/6slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/7slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/8slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/9slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/10slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/11slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/12slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/13slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/14slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/15slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/16slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/17slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/18slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/19slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/20slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/21slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/22slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/23slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/24slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/25slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/26slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/27slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/28slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/29slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider1/30slide.jpg" alt=""></div>
+
     </div>
 </div>

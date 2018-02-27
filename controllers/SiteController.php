@@ -116,5 +116,25 @@ class SiteController extends Controller
     public function actionContacts(){
         return $this->render('contacts');
     }
-
+    public function actionSendMail(){
+        if(Yii::$app->request->isPost){
+            $req = Yii::$app->request;
+            $name = $req->post('name');
+            $number= $req->post('number');
+            $ordertext= $req->post('ordertext');
+            $email= $req->post('email');
+            $mess = "Имя - $name\nНомер - $number\nE-mail - $email\nТекст:\n$ordertext\n";
+            Yii::$app->mailer->compose()
+                ->setFrom('zayvka@zavod-pet.ru')
+                ->setTo('riasta@yandex.ru')
+                ->setSubject('Заявка с формы сайта zavod-pet')
+                ->setTextBody($mess)
+                ->setHtmlBody($mess)
+                ->send();
+        }
+        return $this->render('order');
+    }
+    public function actionOrder(){
+        return $this->render('order');
+    }
 }
