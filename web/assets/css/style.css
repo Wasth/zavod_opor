@@ -816,6 +816,10 @@ div.menu-item:hover {
 
 }
 @media (max-width: 480px) { /* mobile */
+    #formContent .grid-c-3 {
+        display: block;
+
+    }
     #photos {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
