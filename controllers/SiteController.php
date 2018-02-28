@@ -123,7 +123,10 @@ class SiteController extends Controller
             $number= $req->post('number');
             $ordertext= $req->post('ordertext');
             $email= $req->post('email');
-            $mess = "Имя - $name\nНомер - $number\nE-mail - $email\nТекст:\n$ordertext\n";
+            $mess = "Имя - $name
+            Номер - $number
+            E-mail - $email
+            Текст: $ordertext";
             Yii::$app->mailer->compose()
                 ->setFrom('zayvka@zavod-pet.ru')
                 ->setTo('riasta@yandex.ru')
