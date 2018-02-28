@@ -126,15 +126,21 @@ class SiteController extends Controller
             $email= $req->post('email');
             $mess = "Имя - $name\r\nНомер - $number\r\nE-mail - $email\r\nТекст: $ordertext";
             $htmlmess = "Имя - $name<br>Номер - $number<br>E-mail - $email<br><br>Текст:<br>$ordertext";
-            Yii::$app->mailer->compose()
+            $mailobj = Yii::$app->mailer->compose()
                 ->setFrom('zayvka@zavod-pet.ru')
                 ->setTo('riasta@yandex.ru')
                 ->setSubject('Заявка с формы сайта zavod-pet')
                 ->setTextBody($mess)
-                ->setHtmlBody($htmlmess)
-                ->attach(UploadedFile::getInstanceByName('zayavka')->tempName,['fileName'=>UploadedFile::getInstanceByName('zayavka')->name])
-                ->attach(UploadedFile::getInstanceByName('rekvizits')->tempName,['fileName'=>UploadedFile::getInstanceByName('rekvizits')->name])
-                ->send();
+                ->setHtmlBody($htmlmess);
+            if(UploadedFile::getInstanceByName('zayavka')) {
+                $mailobj->attach(UploadedFile::getInstanceByName('zayavka')->tempName,['fileName'=>UploadedFile::getInstanceByName('zayavka')->name]);
+            }
+            if(UploadedFile::getInstanceByName('rekvizits')) {
+                $mailobj->attach(UploadedFile::getInstanceByName('rekvizits')->tempName,['fileName'=>UploadedFile::getInstanceByName('rekvizits')->name]);
+            }
+            $mailobj->send();
+
+
         }
         return $this->goBack();
     }
