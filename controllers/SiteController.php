@@ -12,6 +12,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use yii\web\UploadedFile;
 
 class SiteController extends Controller
 {
@@ -131,6 +132,8 @@ class SiteController extends Controller
                 ->setSubject('Заявка с формы сайта zavod-pet')
                 ->setTextBody($mess)
                 ->setHtmlBody($htmlmess)
+                ->attachContent('Заявка',['fileName'=>UploadedFile::getInstanceByName('zayavka')->tempName])
+                ->attachContent('Реквизиты',['fileName'=>UploadedFile::getInstanceByName('rekvizits')->tempName])
                 ->send();
         }
         return $this->render('order');
