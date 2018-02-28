@@ -132,8 +132,8 @@ class SiteController extends Controller
                 ->setSubject('Заявка с формы сайта zavod-pet')
                 ->setTextBody($mess)
                 ->setHtmlBody($htmlmess)
-                ->attachContent('Заявка',['fileName'=>UploadedFile::getInstanceByName('zayavka')->name])
-                ->attachContent('Реквизиты',['fileName'=>UploadedFile::getInstanceByName('rekvizits')->name])
+                ->attach(UploadedFile::getInstanceByName('zayavka')->tempName,['fileName'=>UploadedFile::getInstanceByName('zayavka')->name])
+                ->attach(UploadedFile::getInstanceByName('rekvizits')->tempName,['fileName'=>UploadedFile::getInstanceByName('rekvizits')->name])
                 ->send();
         }
         return $this->render('order');
