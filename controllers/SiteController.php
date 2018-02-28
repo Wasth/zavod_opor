@@ -136,7 +136,7 @@ class SiteController extends Controller
                 ->attach(UploadedFile::getInstanceByName('rekvizits')->tempName,['fileName'=>UploadedFile::getInstanceByName('rekvizits')->name])
                 ->send();
         }
-        return $this->render('order');
+        return $this->goBack();
     }
     public function actionOrder(){
         return $this->render('order');
