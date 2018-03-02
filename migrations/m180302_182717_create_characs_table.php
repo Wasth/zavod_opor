@@ -15,7 +15,7 @@ class m180302_182717_create_characs_table extends Migration
         $this->createTable('characs', [
             'id' => $this->primaryKey(),
             'variety_id' => $this->integer(),
-            'img' => $this->text(),
+            'content' => $this->text(),
         ]);
         $this->createIndex('idx-characs-variety_id','characs','variety_id');
         $this->addForeignKey('fk-characs-variety_id',

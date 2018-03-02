@@ -218,6 +218,7 @@
 #varietyList a {
     text-decoration: none;
 }
+
 @media (max-width: 1080px) {
     #cardContent > .grid-c-2 {
         display: block;

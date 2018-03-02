@@ -15,7 +15,7 @@ class m180302_182708_create_scheme_table extends Migration
         $this->createTable('scheme', [
             'id' => $this->primaryKey(),
             'variety_id' => $this->integer(),
-            'content' => $this->text(),
+            'img' => $this->text(),
         ]);
         $this->createIndex('idx-scheme-variety_id','scheme','variety_id');
         $this->addForeignKey('fk-scheme-variety_id',

@@ -68,6 +68,459 @@ $this->title = $variety->text;
     </div>
 </div>
 </div>
+<div id="detailButtons">
+    <div class="content">
+        <div class="grid-c-2">
+            <div id="characsButton" class="ui-button">Характеристики</div>
+            <div id="schemesButton" class="ui-button">Чертежи</div>
+        </div>
+
+        <div id="characsBlock" class="ui-window">
+            <div class="modal-wrapper">
+                <div class="modal-content">
+                    <table class="pricelist">
+                        <tr>
+                            <th>Обозначение</th>
+                            <th>Исполнение</th>
+                            <th>Размеры болта dxl</th>
+                            <th>Высота до снования трубопровода Н, мм.</th>
+                            <th>Масса, кг.</th>
+                        </tr>
+                        <tr>
+                            <td class="price_name">57-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td rowspan="12">М12х40</td>
+                            <td>100</td>
+                            <td>2,1</td>
+                            <td class="price_cena">230 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">57-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>4,2</td>
+                            <td class="price_cena">460 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">57-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>2,5</td>
+                            <td class="price_cena">280 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">57-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>5,2</td>
+                            <td class="price_cena">570 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">76-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>2,2</td>
+                            <td class="price_cena">240 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">76-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>4,3</td>
+                            <td class="price_cena">470 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">76-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>2,7</td>
+                            <td class="price_cena">300 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">76-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>5,3</td>
+                            <td class="price_cena">580 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">89-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>2,2</td>
+                            <td class="price_cena">240 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">89-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>4,5</td>
+                            <td class="price_cena">500 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">89-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>2,8</td>
+                            <td class="price_cena">310 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">89-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>5,5</td>
+                            <td class="price_cena">610 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">108-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td rowspan="12">М16х50</td>
+                            <td>100</td>
+                            <td>5,4</td>
+                            <td class="price_cena">600 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">108-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>6,9</td>
+                            <td class="price_cena">760 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">108-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>6,0</td>
+                            <td class="price_cena">660 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">108-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>8,1</td>
+                            <td class="price_cena">890 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">133-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>6,3</td>
+                            <td class="price_cena">690 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">133-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>7,8</td>
+                            <td class="price_cena">860 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">133-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>6,8</td>
+                            <td class="price_cena">750 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">133-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>8,9</td>
+                            <td class="price_cena">980 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">159-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>6,9</td>
+                            <td class="price_cena">760 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">159-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>8,4</td>
+                            <td class="price_cena">920 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">159-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>7,4</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">159-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>9,5</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">219-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td rowspan="30">М20х60</td>
+                            <td>100</td>
+                            <td>13,4</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">219-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>16,8</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">219-КХ-А13</td>
+                            <td>А13 / АС13</td>
+                            <td>100</td>
+                            <td>21,7</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">219-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>14,1</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">219-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>18,0</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">219-КХ-А23</td>
+                            <td>А23 / АС23</td>
+                            <td>150</td>
+                            <td>24,0</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">273-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>15,1</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">273-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>19,6</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">273-КХ-А13</td>
+                            <td>А13 / АС13</td>
+                            <td>100</td>
+                            <td>25,8</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">273-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>15,7</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">273-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>21,5</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">273-КХ-А23</td>
+                            <td>А23 / АС23</td>
+                            <td>150</td>
+                            <td>29,1</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">325-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>17,4</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">325-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>21,0</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">325-КХ-А13</td>
+                            <td>А13 / АС13</td>
+                            <td>100</td>
+                            <td>26,9</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">325-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>18,3</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">325-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>22,8</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">325-КХ-А23</td>
+                            <td>А23 / АС23</td>
+                            <td>150</td>
+                            <td>30,3</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">377-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>19,1</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">377-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>22,6</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">377-КХ-А13</td>
+                            <td>А13 / АС13</td>
+                            <td>100</td>
+                            <td>28,4</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">377-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>20,0</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">377-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>24,5</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">377-КХ-А23</td>
+                            <td>А23 / АС23</td>
+                            <td>150</td>
+                            <td>31,6</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">426-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>22,1</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">426-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>27,3</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">426-КХ-А13</td>
+                            <td>А13 / АС13</td>
+                            <td>100</td>
+                            <td>35,8</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">426-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>23,6</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">426-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>30,0</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">426-КХ-А23</td>
+                            <td>А23 / АС23</td>
+                            <td>150</td>
+                            <td>40,7</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">530-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td rowspan="12">М24х80</td>
+                            <td>100</td>
+                            <td>36,5</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">530-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>43,9</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">530-КХ-А13</td>
+                            <td>А13 / АС13</td>
+                            <td>100</td>
+                            <td>55,3</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">530-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>38,2</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">530-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>47,3</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">530-КХ-А23</td>
+                            <td>А23 / АС23</td>
+                            <td>150</td>
+                            <td>61,1</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">630-КХ-А11</td>
+                            <td>А11 / АС11</td>
+                            <td>100</td>
+                            <td>41,0</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">630-КХ-А12</td>
+                            <td>А12 / АС12</td>
+                            <td>100</td>
+                            <td>48,1</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">630-КХ-А13</td>
+                            <td>А13 / АС13</td>
+                            <td>100</td>
+                            <td>59,2</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">630-КХ-А21</td>
+                            <td>А21 / АС21</td>
+                            <td>150</td>
+                            <td>42,7</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">630-КХ-А22</td>
+                            <td>А22 / АС22</td>
+                            <td>150</td>
+                            <td>51,4</td>
+                        </tr>
+                        <tr>
+                            <td class="price_name">630-КХ-А23</td>
+                            <td>А23 / АС23</td>
+                            <td>150</td>
+                            <td>65,0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="schemesBlock" class="ui-window">
+            <div class="modal-wrapper">
+                <div class="modal-content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <?= $this->render('/blocks/form') ?>
 <div id="photosWrapper">
     <h1 class="block-title">ФОТОГРАФИИ ГОТОВОЙ ПРОДУКЦИИ</h1>

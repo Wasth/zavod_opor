@@ -9,12 +9,27 @@ var slider2data;
 
 var varietySlider = 0;
 $(document).ready(function () {
+
     $.getJSON({
         url:"/assets/img/slider2/slidestext.json",
         success: function (data) {
             slider2data = data;
         }
     });
+
+
+    $('#detailButtons .ui-button').click(function () {
+        var block = $(this).attr('id').replace('Button','Block');
+        $("body").addClass('lock')
+        $("#"+block).show();
+    });
+    $(".modal-wrapper").click(function () {
+        $("body").removeClass('lock')
+        $(this).parent().hide();
+    });
+
+
+
     prepareVarietySlider();
     $("#photoSlider .arrow img").click(function () {
         if($(this).parent().hasClass("leftArrow")) {
