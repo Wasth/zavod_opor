@@ -65,4 +65,10 @@ class Variety extends \yii\db\ActiveRecord
     public function getAddpics(){
         return $this->hasMany(VarietyAddPic::className(),['variety_id'=>'id']);
     }
+    public function getSchemes(){
+        return $this->hasMany(Scheme::className(),['variety_id'=>'id']);
+    }
+    public function getCharacs(){
+        return $this->hasOne(Characs::className(),['variety_id'=>'id']);
+    }
 }

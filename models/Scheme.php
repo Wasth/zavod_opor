@@ -3,6 +3,7 @@
 namespace app\models;
 
 use Yii;
+use yii\helpers\Url;
 
 /**
  * This is the model class for table "scheme".
@@ -53,5 +54,8 @@ class Scheme extends \yii\db\ActiveRecord
     public function getVariety()
     {
         return $this->hasOne(Variety::className(), ['id' => 'variety_id']);
+    }
+    public function getImgUrl(){
+        return Url::toRoute('/assets/uploads/').'/'.$this->img;
     }
 }

@@ -55,7 +55,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <h2>Вариации</h2>
     <div class="variety-pics">
         <?php foreach($varieties as $variety): ?>
-            <div><h3><?= $variety->text ?></h3><img src="<?= $variety->getImgUrl(); ?>"><?= Html::a('Удалить', ['variety/delete', 'id' => $variety->id], [
+            <div><h3><?= $variety->text ?></h3><img src="<?= $variety->getImgUrl(); ?>">
+                <?= Html::a('Удалить', ['variety/delete', 'id' => $variety->id], [
                     'class' => 'btn btn-danger',
                     'data' => [
                         'confirm' => 'Are you sure you want to delete this item?',

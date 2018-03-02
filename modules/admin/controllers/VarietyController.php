@@ -2,7 +2,9 @@
 
 namespace app\modules\admin\controllers;
 
+use app\models\Characs;
 use app\models\ImageUpload;
+use app\models\Scheme;
 use app\models\VarietyAddPic;
 use Yii;
 use app\models\Variety;
@@ -100,6 +102,37 @@ class VarietyController extends Controller
             return $this->render('image',[
                 'model' => $model
             ]);
+        }
+    }
+    public function actionAddscheme($id) {
+        $model = new ImageUpload();
+        if(Yii::$app->request->isPost){
+            $file = UploadedFile::getInstance($model,'image');
+            $scheme = new Scheme();
+            $scheme->variety_id = $id;
+            $scheme->img = $model->uploadFile($file);
+            if($scheme->save()) {
+                return $this->redirect(["view",'id'=>$id]);
+            }
+        }else {
+            return $this->render('image',[
+                'model' => $model
+            ]);
+        }
+    }
+    public function actionAddcharacs($id){
+        if(Yii::$app->request->isPost){
+            $charac = Characs::find()->where(['variety_id'=>$id])->one();
+            if(!$charac){
+                $charac = new Characs();
+            }
+            $charac->content = Yii::$app->request->post('characs');
+            $charac->variety_id = $id;
+            if($charac->save()) {
+                return $this->redirect(["view",'id'=>$id]);
+            }
+        }else {
+            return $this->render('characs');
         }
     }
     /**
