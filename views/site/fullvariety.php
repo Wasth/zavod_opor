@@ -78,7 +78,9 @@ $this->title = $variety->text;
         <div id="characsBlock" class="ui-window">
             <div class="modal-wrapper">
                 <div class="modal-content">
+                    <div id="tableWrapper">
                     <?= $variety->characs->content ?>
+                    </div>
                 </div>
             </div>
         </div>
