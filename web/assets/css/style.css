@@ -697,6 +697,13 @@ div.menu-item:hover {
 #detailButtons .price_cena {
     display: none;
 }
+#schemesBlock .modal-content > div img {
+    width: 100%;
+}
+#schemesBlock .modal-content > div{
+    width: 70%;
+    margin: 0 auto;
+}
 .modal-wrapper {
     position: fixed;
     top: 0;
