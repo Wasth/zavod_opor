@@ -48,10 +48,15 @@ $this->title = $model->id;
                 ]) ?></div>
         <?php endforeach; ?>
     </div>
+
     <h2>Чертежи</h2>
     <div class="additional-pics">
         <?php foreach($model->schemes as $pic): ?>
             <div><img src="<?= $pic->getImgUrl(); ?>"></div>
         <?php endforeach; ?>
+    </div>
+    <h2>Характеристики</h2>
+    <div class="additional-pics">
+        <?= $model->characs->content ?>
     </div>
 </div>
