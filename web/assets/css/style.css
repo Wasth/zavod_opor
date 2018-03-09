@@ -722,17 +722,17 @@ div.menu-item:hover {
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
-.pricelist {
+.pricelist, .pricelist2{
     margin: 0 auto;
     border-collapse: collapse;
     padding: 15px;
     background: #fff;
 }
-.pricelist tr td {
+.pricelist tr td, .pricelist2 tr td {
     padding: 15px;
     border: 1px solid black;
 }
-.pricelist tr th {
+.pricelist tr th, .pricelist2 tr th {
     padding: 15px;
     border: 1px solid black;
 }
