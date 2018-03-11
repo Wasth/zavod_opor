@@ -5,7 +5,7 @@
         <div id="ownProductionBlock" class="content">
             <div id="videoBlock">
                 <div id="video">
-                    <iframe width="603" height="329" src="https://www.youtube.com/embed/HLCqlc9AJxA?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="603" height="329" src="https://www.youtube.com/embed/GTPpP8zgy9o?ecver=1" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div id="advantages">
                     <div><div class="ownicon" style="background-image: url('/assets/img/ownicon1.png')"></div>
