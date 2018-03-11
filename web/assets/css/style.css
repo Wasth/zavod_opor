@@ -701,7 +701,7 @@ div.menu-item:hover {
     width: 100%;
 }
 #schemesBlock .modal-content > div{
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 .modal-wrapper {
