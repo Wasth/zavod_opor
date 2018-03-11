@@ -27,7 +27,7 @@
 </div>
 <div id="photosWrapper">
     <div id="photos" class="content">
-        <div><div><img src="/assets/img/slider1/1slide.jpg" alt=""></div></div>
+        <div><img src="/assets/img/slider1/1slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider1/2slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider1/3slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider1/4slide.jpg" alt=""></div>
@@ -57,6 +57,25 @@
         <div><img src="/assets/img/slider1/28slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider1/29slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider1/30slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/1slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/2slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/3slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/4slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/5slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/6slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/7slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/8slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/9slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/10slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/11slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/12slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/13slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/14slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/15slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/16slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/17slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/18slide.jpg" alt=""></div>
+        <div><img src="/assets/img/slider2/19slide.jpg" alt=""></div>
 
     </div>
 </div>
