@@ -1,6 +1,8 @@
 <?php $this->title = 'Каталог продукции' ?>
 <div class="minimal-h">
     <div id="catalogWrapper">
+        <h1 class="block-title">Каталог опор</h1>
+        <br><br>
         <div id="catalog" class="content">
             <div id="catalogGrid">
                 <?php use yii\helpers\Url;

@@ -204,6 +204,8 @@
     color: #ff2727;
     font-size: 48px;
     margin: 0 15px;
+
+    /*padding: 5px 20px;*/
 }
 #varietyList h3:hover {
     cursor: pointer;
@@ -211,12 +213,15 @@
 }
 #varietyList {
     text-align: center;
-    border: 1px solid #222222;
-    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
     margin-top: 35px;
 }
 #varietyList a {
     text-decoration: none;
+    border: 1px solid #222222;
+    border-radius: 3px;
 }
 
 @media (max-width: 1080px) {

@@ -42,7 +42,7 @@ PublicAsset::register($this);
                     </a>
                 </div>
                 <div id="right-block">
-                    <h1 class="number">8 (800) 200-40-80</h1>
+                    <h1 class="number">8 (800) 350-09-19</h1>
                     <h1 class="email"><a href="mailto:op@zavod-pet.ru">op@zavod-pet.ru</a></h1>
                 </div>
                 <div class="clear"></div>
@@ -73,7 +73,7 @@ PublicAsset::register($this);
                     <h1>Завод по производству<br>элементов трубопроводов</h1>
                 </div>
                 <div id="right-block-footer">
-                    <h1 class="number">8 (800) 200-40-80</h1>
+                    <h1 class="number">8 (800) 350-09-19</h1>
                     <h1 class="email"><a href="mailto:op@zavod-pet.ru">op@zavod-pet.ru</a></h1>
                 </div>
                 <div class="clear"></div>

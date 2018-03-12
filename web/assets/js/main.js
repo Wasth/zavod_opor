@@ -3,7 +3,7 @@ var max1i = 10;
 var min1i = 1;
 
 var slider2 = 1;
-var max2i = 7;
+var max2i = 6;
 var min2i = 1;
 var slider2data;
 
