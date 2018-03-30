@@ -25,7 +25,7 @@ $this->title = $variety->text;
                 </div>
             </div>
             <div id="info">
-                <h1><?= $item->text ?></h1>
+                <h1><?= $variety->text ?></h1>
                 <div id="adv" class="grid-c-2">
                     <div>
                         <div class="icon" style="background-image: url('/assets/img/1adv.png');"></div>
