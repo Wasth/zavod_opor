@@ -6,7 +6,7 @@
             <h2>ООО «Риана Групп»</h2>
             <h3>Расчет заказа за 30 минут</h3>
             <h3>Быстрая доставка по всей России</h3>
-            <h3>8 (8553) 35-52-55 <br> sales@opora-rg.ru<br>rianagrupp@mail.ru</h3>
+            <h3>8 (800) 350-09-19 <br> sales@opora-rg.ru<br>rianagrupp@mail.ru</h3>
         </div>
     </div>
 </div>

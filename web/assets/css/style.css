@@ -758,6 +758,7 @@ div.menu-item:hover {
     }
     #headerWrapper {
         position: static;
+        box-shadow: none;
     }
     #photos {
         display: grid;
