@@ -130,7 +130,7 @@
     max-width: calc(90vw - 30px);
     max-height: calc(90vh - 30px);
     padding: 15px;
-    margin: 5vh auto;
+    margin: calc(5vh + 153px) auto;
     background: white;
     display: inline-block;
 }
