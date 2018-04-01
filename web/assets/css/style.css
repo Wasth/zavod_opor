@@ -753,6 +753,12 @@ div.menu-item:hover {
 /*--- CARD SLIDER
  */
 @media (max-width: 1080px){ /* tab */
+    .w-header {
+        height: 0;
+    }
+    #headerWrapper {
+        position: static;
+    }
     #photos {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
