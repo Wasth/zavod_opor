@@ -2,7 +2,7 @@
     <div id="footer" class="content">
         <div id="left-block-footer">
             <img src="/assets/img/logo.png">
-            <h1>Общество с ограниченной ответственностью <br> «Риана Групп»</h1>
+            <h1>«Риана Групп»</h1>
         </div>
         <div id="right-block-footer">
             <h1 class="number">8 (8553) 35-52-55</h1>

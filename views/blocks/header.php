@@ -7,7 +7,7 @@ use yii\helpers\Url;
         <div id="left-block">
             <a href="/">
                 <img src="/assets/img/logo.png">
-                <h1>Общество с ограниченной ответственностью <br> «Риана Групп»</h1>
+                <h1>«Риана Групп»</h1>
             </a>
         </div>
         <div id="right-block">

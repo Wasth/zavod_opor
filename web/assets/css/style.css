@@ -120,7 +120,7 @@ h1.block-title {
 #header #left-block h1{
     float: left;
     font-size: 26px;
-    margin-top: 4px;
+    margin-top: 20px;
 }
 #header #right-block .number {
     font-weight: 900;
@@ -587,7 +587,7 @@ div.menu-item:hover {
 #footer #left-block-footer h1{
     float: left;
     font-size: 26px;
-    margin-top: 4px;
+    margin-top: 20px;
 }
 #footer #right-block-footer .number {
     font-weight: 900;
