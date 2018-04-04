@@ -127,7 +127,7 @@ class SiteController extends Controller
             $mess = "Имя - $name\r\nНомер - $number\r\nE-mail - $email\r\nТекст: $ordertext";
             $htmlmess = "Имя - $name<br>Номер - $number<br>E-mail - $email<br><br>Текст:<br>$ordertext";
             $mailobj = Yii::$app->mailer->compose()
-                ->setFrom('zayvka@zavod-pet.ru')
+                ->setFrom('zayvka@opora-rg.ru')
                 ->setTo('sales@opora-rg.ru')
                 ->setSubject('Заявка с формы сайта zavod-pet')
                 ->setTextBody($mess)
