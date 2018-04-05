@@ -1,7 +1,7 @@
 <div id="formWrapper">
     <h1 class="block-title">Бесплатный расчёт стоимости партии за 50 минут</h1>
     <div id="formContent" class="content">
-        <form action="/send-mail" enctype="multipart/form-data" method="post">
+        <form action="/sendmail" enctype="multipart/form-data" method="post">
             <input type="hidden" name="_csrf" value="<?=Yii::$app->request->getCsrfToken()?>" />
             <div class="grid-c-3">
                 <input type="text" name="name" placeholder="ВВЕДИТЕ ИМЯ">

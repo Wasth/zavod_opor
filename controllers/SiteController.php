@@ -116,7 +116,7 @@ class SiteController extends Controller
     public function actionContacts(){
         return $this->render('contacts');
     }
-    public function actionSendMail(){
+    public function actionSendmail(){
         if(Yii::$app->request->isPost){
             $req = Yii::$app->request;
             $name = $req->post('name');
@@ -138,10 +138,10 @@ class SiteController extends Controller
                 $mailobj->attach(UploadedFile::getInstanceByName('rekvizits')->tempName,['fileName'=>UploadedFile::getInstanceByName('rekvizits')->name]);
             }
             $mailobj->send();
-
+            var_dump(Yii::$app->request->post());
 
         }
-        return $this->goBack();
+//        return $this->goBack();
     }
     public function actionOrder(){
         return $this->render('order');
