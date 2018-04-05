@@ -100,7 +100,6 @@ class SiteController extends Controller
     }
     public function actionExitadmin(){
         Yii::$app->user->logout();
-
         return $this->redirect('/myadmin');
     }
 
@@ -129,7 +128,7 @@ class SiteController extends Controller
             $mailobj = Yii::$app->mailer->compose()
                 ->setFrom('zayvka@opora-rg.ru')
                 ->setTo('sales@opora-rg.ru')
-                ->setSubject('Заявка с формы сайта zavod-pet')
+                ->setSubject('Заявка с формы сайта opora-rg.ru')
                 ->setTextBody($mess)
                 ->setHtmlBody($htmlmess);
             if(UploadedFile::getInstanceByName('zayavka')) {

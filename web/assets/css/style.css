@@ -4,6 +4,12 @@
     margin: 0;
     font-family: Akrobat;
 }
+.number-pre-text, .mail-pre-text {
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: -2px;
+}
 .w-header {
     height: 153px;
 }
@@ -121,6 +127,9 @@ h1.block-title {
     float: left;
     font-size: 26px;
     margin-top: 20px;
+}
+#header #right-block h1 {
+    text-align: right;
 }
 #header #right-block .number {
     font-weight: 900;

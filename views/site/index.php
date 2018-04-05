@@ -27,7 +27,7 @@ $this->title = 'Завод по производсту опор трубопро
         </div>
     </div>
 </div>
-<?= $this->render('/blocks/form') ?>
+
 <div id="catalogWrapper">
     <div id="catalog" class="content">
         <h1 class="block-title">Каталог опор</h1>
@@ -242,4 +242,5 @@ $this->title = 'Завод по производсту опор трубопро
         <div class="story-img"><img src="/assets/img/history4.jpg"></div>
     </div>
 </div>
+<?= $this->render('/blocks/form') ?>
 <?= $this->render('/blocks/contacts.php') ?>
