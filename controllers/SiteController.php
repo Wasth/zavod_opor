@@ -138,10 +138,10 @@ class SiteController extends Controller
                 $mailobj->attach(UploadedFile::getInstanceByName('rekvizits')->tempName,['fileName'=>UploadedFile::getInstanceByName('rekvizits')->name]);
             }
             $mailobj->send();
-            var_dump(Yii::$app->request->post());
+//            var_dump(Yii::$app->request->post());
 
         }
-//        return $this->goBack();
+        return $this->goBack();
     }
     public function actionOrder(){
         return $this->render('order');
