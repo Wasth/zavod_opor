@@ -1,3 +1,7 @@
+<IfModule security2_module>
+    SecRuleEngine Off
+</IfModule>
+
 RewriteEngine on
 RewriteRule ^(.+)?$ /web/$1
 
