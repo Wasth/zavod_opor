@@ -124,7 +124,7 @@ h1.block-title {
     margin-right: 10px;
 }
 #header #left-block h1{
-    float: left;
+    display: inline-block;
     font-size: 26px;
     margin-top: 20px;
 }
@@ -911,6 +911,15 @@ div.menu-item:hover {
 
 }
 @media (max-width: 640px) { /* mobile */
+    #header .fas {
+        display: none;
+    }
+    .number-pre-text, .mail-pre-text {
+        display: block;
+    }
+    #header #right-block h1 {
+        text-align: center;
+    }
     #formContent .grid-c-3 {
         display: block;
     }
@@ -931,7 +940,7 @@ div.menu-item:hover {
         margin-right: 10px;
     }
     #header #left-block h1{
-        float: none;
+        display: block;
     }
     h1.block-title, #catalog h1 {
         font-size: 30px;
