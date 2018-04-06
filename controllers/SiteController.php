@@ -126,7 +126,7 @@ class SiteController extends Controller
             $mess = "Имя - $name\r\nНомер - $number\r\nE-mail - $email\r\nТекст: $ordertext";
             $htmlmess = "Имя - $name<br>Номер - $number<br>E-mail - $email<br><br>Текст:<br>$ordertext";
             $mailobj = Yii::$app->mailer->compose()
-                ->setFrom('zayvka@opora-rg.ru')
+                ->setFrom('zayavka@opora-rg.ru')
                 ->setTo('sales@opora-rg.ru')
                 ->setSubject('Заявка с формы сайта opora-rg.ru')
                 ->setTextBody($mess)
@@ -141,7 +141,7 @@ class SiteController extends Controller
 //            var_dump(Yii::$app->request->post());
 
         }
-        return $this->goBack();
+//        return $this->goBack();
     }
     public function actionOrder(){
         return $this->render('order');
