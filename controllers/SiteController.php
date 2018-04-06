@@ -141,7 +141,7 @@ class SiteController extends Controller
 //            var_dump(Yii::$app->request->post());
 
         }
-//        return $this->goBack();
+        return $this->goBack();
     }
     public function actionOrder(){
         return $this->render('order');
