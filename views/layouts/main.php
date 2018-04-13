@@ -42,6 +42,7 @@ PublicAsset::register($this);
     </div>
 </div>
 
+<script type="text/javascript" src='//api.venyoo.ru/wnew.js?wc=venyoo/default/science&widget_id=5742335818334208'></script>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
