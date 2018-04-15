@@ -10,6 +10,7 @@
                 <h3>Быстрая доставка по всей России</h3>
                 <h3>8 (800) 350-09-19 <br> sales@opora-rg.ru</h3>
                 <h3><a href="/assets/cardofcompany.doc">Скачать карту компании «Риана Групп»</a></h3>
+                <h3><a href="/assets/docsoporarg.rar">Учредительные документы ООО «Риана Групп»</a></h3>
             </div>
         </div>
     </div>
