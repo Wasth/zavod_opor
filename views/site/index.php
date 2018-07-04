@@ -5,7 +5,7 @@
 use app\models\ZayavkaForm;
 use yii\helpers\Url;
 
-$this->title = 'Завод по производсту опор трубопроводов';
+$this->title = 'Завод по производству опор трубопроводов';
 ?>
 
 
