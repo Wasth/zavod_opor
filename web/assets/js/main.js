@@ -1,5 +1,5 @@
 var slider1 = 1;
-var max1i = 10;
+var max1i = 13;
 var min1i = 1;
 
 var slider2 = 1;
