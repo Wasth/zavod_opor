@@ -1,9 +1,9 @@
-var slider1 = 1;
+var slider1 = 12;
 var max1i = 13;
 var min1i = 1;
 
-var slider2 = 1;
-var max2i = 6;
+var slider2 = 9;
+var max2i = 10;
 var min2i = 1;
 var slider2data;
 
