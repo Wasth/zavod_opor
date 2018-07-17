@@ -90,15 +90,15 @@ $this->title = 'Завод по производству опор трубопр
                     <div class="slidesBlock">
                         <div>
                             <div style="background-image: url('/assets/img/slider2/1slide.jpg')"></div>
-                            <h2>Сварочный пост</h2>
+                            <h2></h2>
                         </div>
                         <div>
                             <div style="background-image: url('/assets/img/slider2/2slide.jpg')"></div>
-                            <h2>Аккуратная упаковка</h2>
+                            <h2></h2>
                         </div>
                         <div>
                             <div style="background-image: url('/assets/img/slider2/3slide.jpg')"></div>
-                            <h2>Склад металла</h2>
+                            <h2></h2>
                         </div>
                     </div>
                 </div>
