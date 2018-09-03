@@ -11,9 +11,9 @@ use yii\helpers\Url;
             </a>
         </div>
         <div id="right-block">
-            <h1 class="number"><span class="number-pre-text">Отправьте заявку на почту <i class="mobile-delimiter fas fa-arrow-right"></i></span><a href="mailto:sales@opora-rg.ru"> sales@opora-rg.ru </a></h1>
+            <h1 class="number"><span class="number-pre-text">Отправьте заявку на почту <i class="mobile-delimiter fas fa-arrow-right"></i></span><a href="mailto:sales@opora-rg.ru" onclick="yaCounter48355565.reachGoal('emailclick'); return true;"> sales@opora-rg.ru </a></h1>
             <h1 class="email"><span class="mail-pre-text">Есть вопросы? Звоните прямо сейчас!</span>
-                    <a href="tel:88003500919">8 (800) 350-09-19</a></h1>
+                    <a onclick="yaCounter48355565.reachGoal('phoneclick'); return true;" href="tel:88003500919">8 (800) 350-09-19</a></h1>
         </div>
         <div class="clear"></div>
     </div>

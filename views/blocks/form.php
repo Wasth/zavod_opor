@@ -15,7 +15,7 @@
             <label for="rekvizits"><img src="/assets/img/clipboard.png" alt="icon"> ПРИКРЕПИТЕ РЕКВИЗИТЫ</label>
             <input name="zayavka" id="zayavka" type="file">
             <input name="rekvizits" id="rekvizits" type="file"><br><br>
-            <button type="submit"><img src="/assets/img/message.png" alt="icon"> Отправить</button>
+            <button type="submit" onclick="yaCounter48355565.reachGoal('zayavka'); return true;"><img src="/assets/img/message.png" alt="icon"> Отправить</button>
         </form>
     </div>
 </div>
