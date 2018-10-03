@@ -13,9 +13,11 @@ use yii\helpers\Url;
         <div id="menuUp">
             <a href="/">
                 <div class="menu-item">О нас</div>
-            </a><a href="<?= Url::toRoute(['catalog']) ?>">
-                <div class="menu-item">Каталог</div>
-            </a><a href="<?= Url::toRoute(['media']) ?>">
+            </a>
+<!--            <a href="--><?//= Url::toRoute(['catalog']) ?><!--">-->
+<!--                <div class="menu-item">Каталог</div>-->
+<!--            </a>-->
+            <a href="<?= Url::toRoute(['media']) ?>">
                 <div class="menu-item">Фото и видео</div>
             </a><a href="<?= Url::toRoute(['contacts']) ?>">
                 <div class="menu-item">Контакты</div>
@@ -33,7 +35,7 @@ use yii\helpers\Url;
     <div id="menu">
         <div id="menuWrapper">
             <div class="content">
-                <a href="/">
+                <a href="<?= Url::toRoute(['catalog']) ?>">
                     <div class="menu-item">Опоры</div>
                 </a><a href="#">
                     <div class="menu-item">Закладные детали</div>
