@@ -21,7 +21,7 @@
     clear: both;
 }
 .content {
-    width: 1000px;
+    width: 1300px;
     margin: 0 auto;
 }
 .lock {
@@ -149,17 +149,30 @@ h1.block-title {
 #menuWrapper {
     background-color: #ff4a35;
     color: white;
-
 }
-#menuContainer a{
+#menuWrapper a {
     color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+#menuWrapper div.menu-item {
+    display: inline-block;
+    padding: 10px 25px;
+    /*margin-right: 50px;*/
+}
+#menuUp {
+    margin-top: 12px;
+    display: inline-block;
+}
+#menuUp a{
+    color: black;
     font-size: 24px;
     text-decoration: none;
 }
 div.menu-item {
     display: inline-block;
-    padding: 10px 15px;
-    margin-right: 50px;
+    padding: 10px 10px;
+    /*margin-right: 50px;*/
 }
 div.menu-item:hover {
     background-color: rgba(0,0,0,0.1);
@@ -895,7 +908,7 @@ div.menu-item:hover {
     #video iframe {
         width: 100%;
     }
-    #menuContainer {
+    #menuUp {
         text-align: center;
     }
     div.menu-item {
