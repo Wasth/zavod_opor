@@ -2,7 +2,7 @@ var slider1 = 14;
 var max1i = 14;
 var min1i = 1;
 
-var slider2 = 10;
+var slider2 = 1;
 var max2i = 10;
 var min2i = 1;
 var slider2data;
