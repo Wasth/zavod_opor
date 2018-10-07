@@ -45,19 +45,19 @@ $curDomain = Yii::$app->request->serverName;
                     ],
                     [
                         'label' => 'Закладные детали',
-                        'url' => '/admin/dop_item/index?id=3',
+                        'url' => '/admin/dop-items/index?id=3',
                     ],
                     [
                         'label' => 'Лестницы и ограждения',
-                        'url' => '/admin/dop_item/index?id=4',
+                        'url' => '/admin/dop-items/index?id=4',
                     ],
                     [
                         'label' => 'Сальники',
-                        'url' => '/admin/dop_item/index?id=5',
+                        'url' => '/admin/dop-items/index?id=5',
                     ],
                     [
                         'label' => 'Фундаментальные болты',
-                        'url' => '/admin/dop_item/index?id=5',
+                        'url' => '/admin/dop-item/index?id=5',
                     ],
                 ]],
                 ['label' => 'Открыть сайт', 'url' => ['/']],
