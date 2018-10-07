@@ -28,23 +28,6 @@ $this->title = 'Завод по производству опор трубопр
     </div>
 </div>
 
-<div id="catalogWrapper">
-    <div id="catalog" class="content">
-        <h1 class="block-title">Каталог опор</h1>
-        <div id="catalogGrid">
-            <?php foreach($items as $item): ?>
-            <div>
-                <img src="<?= $item->getImgUrl() ?>" alt="catalog_img">
-                <p><?= $item->text ?></p>
-                <a href="<?= Url::toRoute(['item/'.$item->id]) ?>">
-                    <button>ПОДРОБНЕЕ</button>
-                </a>
-            </div>
-            <?php endforeach; ?>
-        </div>
-
-    </div>
-</div>
 <div id="photosWrapper">
     <h1 class="block-title">ФОТОГРАФИИ ГОТОВОЙ ПРОДУКЦИИ</h1>
     <div id="photoSliderWrapper">
