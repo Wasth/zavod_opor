@@ -38,7 +38,28 @@ $curDomain = Yii::$app->request->serverName;
             'options' => ['class' => 'navbar-nav navbar-right'],
             'items' => [
                 ['label' => 'Главная', 'url' => ['/admin/default/index']],
-                ['label' => 'Элементы в каталоге', 'url' => ['/admin/item/index']],
+                ['label' => 'Элементы в каталоге', 'items' => [
+                    [
+                        'label' => 'Опоры',
+                        'url' => '/admin/item/',
+                    ],
+                    [
+                        'label' => 'Закладные детали',
+                        'url' => '/admin/dop_item/index?id=3',
+                    ],
+                    [
+                        'label' => 'Лестницы и ограждения',
+                        'url' => '/admin/dop_item/index?id=4',
+                    ],
+                    [
+                        'label' => 'Сальники',
+                        'url' => '/admin/dop_item/index?id=5',
+                    ],
+                    [
+                        'label' => 'Фундаментальные болты',
+                        'url' => '/admin/dop_item/index?id=5',
+                    ],
+                ]],
                 ['label' => 'Открыть сайт', 'url' => ['/']],
                 ['label' => 'Выйти из аккаунта', 'url' => ['/exitadmin']],
             ],
