@@ -62,7 +62,16 @@ $this->title = $item->text;
                     </div>
                 </div>
                 <div id="characs">
-                    <iframe width="389" height="219" src="https://www.youtube.com/embed/GTPpP8zgy9o?ecver=1" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                    <?php if($varieties): ?>
+                            <h1>Мы продаем <?= $item->text ?> следующих типов</h1>
+                            <div>
+                                <?php foreach($varieties as $variety): ?>
+                                    <a class="black" href="<?= Url::toRoute(['variety/'.$variety->id]) ?>">
+                                        <h1 class="inline black"><?= $variety->text ?></h1>
+                                    </a>
+                                <?php endforeach; ?>
+                            </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -86,18 +95,7 @@ $this->title = $item->text;
         </div>
     </div>
 </div>
-<?php if($varieties): ?>
-<div id="varietyWrapper">
-    <h1 class="block-title">Мы продаем <?= $item->text ?> следующих типов</h1>
-        <div class="content" id="varietyList">
-            <?php foreach($varieties as $variety): ?>
-                <a href="<?= Url::toRoute(['variety/'.$variety->id]) ?>">
-                    <h3><?= $variety->text ?></h3>
-                </a>
-            <?php endforeach; ?>
-        </div>
-</div>
-<?php endif; ?>
+
 <div id="ownDesignDepartWrapper">
     <h1 class="block-title">Собственный проектировочный отдел</h1>
     <div id="ownDesignDepart">
