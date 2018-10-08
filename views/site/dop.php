@@ -4,16 +4,22 @@
         <h1 class="block-title"><?= $parent->name ?></h1>
         <br><br>
         <div id="catalog" class="content">
-<!--            --><?php //use yii\helpers\Url;
-//
-//            foreach($items as $item): ?>
-<!--                <div>-->
-<!--                    <h2>--><?//= $item->text ?><!--</h2>-->
-<!--                    --><?php //foreach ($item->varieties as $child): ?>
-<!--                        <h3 class="inline"><a href="">--><?//= $child->text ?><!--</a></h3>-->
-<!--                    --><?php //endforeach; ?>
-<!--                </div>-->
-<!--            --><?php //endforeach; ?>
+
+            <?php use yii\helpers\Url;
+
+            foreach($items as $item): ?>
+                <div>
+                    <?php if($item->dopItems): ?>
+                        <h2><?= $item->name ?></h2>
+                        <?php foreach ($item->dopItems as $child): ?>
+                            <h3 class="inline"><a href="<?= Url::to(['full-dop', 'id' => $child->id]) ?>"><?= $child->name ?></a></h3>
+                        <?php endforeach; ?>
+                    <?php else: ?>
+                        <a href="<?= Url::to(['full-dop', 'id' => $item->id]) ?>"><h2><?= $item->name?></h2></a>
+                    <?php endif; ?>
+
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </div>

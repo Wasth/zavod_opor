@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\models\DopCharacs;
+use app\models\DopImg;
 use app\models\DopItems;
 use app\models\Item;
 use app\models\Variety;
@@ -119,10 +121,10 @@ class SiteController extends Controller
     }
     public function actionDop($id){
         $item = DopItems::find()->where(['id' => $id])->one();
-        $items = DopItems::find()->where(['parent_id' => $id])->one();
+        $items = DopItems::find()->where(['parent_id' => $id])->all();
         return $this->render('dop',[
             'parent' => $item,
-            'items' => ''
+            'items' => $items
         ]);
     }
     public function actionSendmail(){
@@ -154,5 +156,17 @@ class SiteController extends Controller
     }
     public function actionOrder(){
         return $this->render('order');
+    }
+    public function actionFullDop($id){
+        $addPic = DopImg::find()->where(['dop_id' => $id])->all();
+        $characs = DopCharacs::find()->where(['dop_id' => $id])->one();
+        $item = DopItems::find()->where(['id' => $id])->one();
+        $varieties = DopItems::find()->where(['parent_id' => $id])->all();
+        return $this->render('dopfull',[
+            'item' => $item,
+            'addPics' => $addPic,
+            'characs' => $characs,
+            'varieties' => $varieties,
+        ]);
     }
 }

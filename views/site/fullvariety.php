@@ -77,8 +77,6 @@ $this->title = $variety->text;
 </div>
 <div id="detailButtons">
     <div class="content">
-
-
         <div id="characsBlock" class="ui-window">
             <div class="modal-wrapper">
                 <div class="modal-content">
