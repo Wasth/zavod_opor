@@ -90,4 +90,8 @@ class DopItems extends \yii\db\ActiveRecord
     {
         return $this->hasMany(DopSchemes::className(), ['dop_id' => 'id']);
     }
+
+    public function getImgUrl(){
+        return '';
+    }
 }

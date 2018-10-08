@@ -4,19 +4,18 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\DopItems */
+/* @var $model app\models\DopImg */
 
-$this->title = 'Create Dop Items';
-$this->params['breadcrumbs'][] = ['label' => 'Dop Items', 'url' => ['index']];
+$this->title = 'Create Dop Img';
+$this->params['breadcrumbs'][] = ['label' => 'Dop Imgs', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="dop-items-create">
+<div class="dop-img-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <?= $this->render('_form', [
         'model' => $model,
-        'parent_id' => $parent_id
     ]) ?>
 
 </div>

@@ -57,7 +57,7 @@ $curDomain = Yii::$app->request->serverName;
                     ],
                     [
                         'label' => 'Фундаментальные болты',
-                        'url' => '/admin/dop-item/index?id=5',
+                        'url' => '/admin/dop-items/index?id=6',
                     ],
                 ]],
                 ['label' => 'Открыть сайт', 'url' => ['/']],

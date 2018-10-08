@@ -6,15 +6,15 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Dop Items';
+$this->title = 'Dop Imgs';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="dop-items-index">
+<div class="dop-img-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Dop Items', ['create', 'id' => $parent_id], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Dop Img', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -22,8 +22,8 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
+            'dop_id',
             'name',
-            'parent_id',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

@@ -3,6 +3,7 @@
 namespace app\models;
 
 use Yii;
+use yii\helpers\Url;
 
 /**
  * This is the model class for table "dop_img".
@@ -53,5 +54,8 @@ class DopImg extends \yii\db\ActiveRecord
     public function getDop()
     {
         return $this->hasOne(DopItems::className(), ['id' => 'dop_id']);
+    }
+    public function getImgUrl(){
+        return Url::toRoute('/assets/uploads/').'/'.$this->name;
     }
 }
