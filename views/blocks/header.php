@@ -37,13 +37,13 @@ use yii\helpers\Url;
             <div class="content">
                 <a href="<?= Url::toRoute(['catalog']) ?>">
                     <div class="menu-item">Опоры</div>
-                </a><a href="#">
+                </a><a href="<?= Url::toRoute(['dop', 'id'=>'3']) ?>">
                     <div class="menu-item">Закладные детали</div>
-                </a><a href="#">
+                </a><a href="<?= Url::toRoute(['dop', 'id'=>'4']) ?>">
                     <div class="menu-item">Лестницы и ограждения</div>
-                </a><a href="#">
+                </a><a href="<?= Url::toRoute(['dop', 'id'=>'5']) ?>">
                     <div class="menu-item">Сальники</div>
-                </a><a href="#">
+                </a><a href="<?= Url::toRoute(['dop', 'id'=>'6']) ?>">
                     <div class="menu-item">Фундаментальные болты</div>
                 </a>
             </div>

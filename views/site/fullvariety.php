@@ -60,8 +60,15 @@ $this->title = $variety->text;
                         <div class="icon-text"><p>Напрямую с завода без наценок</p></div>
                     </div>
                 </div>
-                <div id="video">
-                    <iframe width="389" height="219" src="https://www.youtube.com/embed/GTPpP8zgy9o?ecver=1" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                <div id="characs">
+                    <div id="detailButtons">
+                        <div class="grid-c-2">
+                            <div id="characsButton" class="ui-button">Характеристики</div>
+                            <div id="schemesButton" class="ui-button">Чертежи</div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -70,10 +77,7 @@ $this->title = $variety->text;
 </div>
 <div id="detailButtons">
     <div class="content">
-        <div class="grid-c-2">
-            <div id="characsButton" class="ui-button">Характеристики</div>
-            <div id="schemesButton" class="ui-button">Чертежи</div>
-        </div>
+
 
         <div id="characsBlock" class="ui-window">
             <div class="modal-wrapper">

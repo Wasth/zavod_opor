@@ -15,7 +15,7 @@
 #cardBlock #info p{font-size:16px;font-weight:600;}
 #info .icon{width:42px;height:50px;background-position:center center;background-repeat:no-repeat;float:left;}
 #info .icon-text{display:table-cell;vertical-align:middle;height:50px;padding-left:15px;}
-#video{background:0;text-align:center;margin-top:28px;height:auto;width:auto;}
+#characs{background:0;text-align:center;margin-top:28px;height:auto;width:auto;}
 #cardBlock #additionalPics{display:grid;grid-template-columns:repeat(4, 1fr);}
 #cardBlock #additionalPics img{height:150px;}
 #varietySlider .arrow{}

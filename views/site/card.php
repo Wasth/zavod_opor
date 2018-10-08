@@ -61,7 +61,7 @@ $this->title = $item->text;
                         <div class="icon-text"><p>Напрямую с завода без наценок</p></div>
                     </div>
                 </div>
-                <div id="video">
+                <div id="characs">
                     <iframe width="389" height="219" src="https://www.youtube.com/embed/GTPpP8zgy9o?ecver=1" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>

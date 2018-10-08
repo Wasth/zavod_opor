@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\DopItems;
 use app\models\Item;
 use app\models\Variety;
 use Yii;
@@ -115,6 +116,14 @@ class SiteController extends Controller
     }
     public function actionContacts(){
         return $this->render('contacts');
+    }
+    public function actionDop($id){
+        $item = DopItems::find()->where(['id' => $id])->one();
+        $items = DopItems::find()->where(['parent_id' => $id])->one();
+        return $this->render('dop',[
+            'parent' => $item,
+            'items' => ''
+        ]);
     }
     public function actionSendmail(){
         if(Yii::$app->request->isPost){

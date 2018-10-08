@@ -85,7 +85,7 @@
     height: 50px;
     padding-left: 15px;
 }
-#video {
+#characs {
     background: 0;
     text-align: center;
     margin-top: 28px;
@@ -228,7 +228,7 @@
     #cardContent > .grid-c-2 {
         display: block;
     }
-    #video iframe {
+    #characs iframe {
         width: 100%;
     }
 }
@@ -237,7 +237,7 @@
         grid-template-columns: 1fr;
         width: 100%;
     }
-    #video iframe {
+    #characs iframe {
         width: 100%;
     }
     #cardBlock #slide {

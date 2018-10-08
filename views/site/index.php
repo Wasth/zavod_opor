@@ -49,7 +49,7 @@ $this->title = 'Завод по производству опор трубопр
     <div id="ownProductionBlockWrapper">
         <div id="ownProductionBlock" class="content">
             <div id="videoBlock">
-                <div id="video">
+                <div id="characs">
                     <iframe width="603" height="329" src="https://www.youtube.com/embed/GTPpP8zgy9o?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div id="advantages">

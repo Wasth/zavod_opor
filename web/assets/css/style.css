@@ -14,6 +14,9 @@
     color: #000;
 
 }
+.inline {
+    display: inline;
+}
 .w-header {
     height: 153px;
 }
@@ -375,7 +378,7 @@ div.menu-item:hover {
     grid-gap: 35px;
     padding-top: 30px;
 }
-#video {
+#characs {
     background: black;
     height: 329px;
 }
@@ -905,7 +908,7 @@ div.menu-item:hover {
     #historyGrid .story-text p {
         font-size: 20px;
     }
-    #video iframe {
+    #characs iframe {
         width: 100%;
     }
     #menuUp {
@@ -983,7 +986,7 @@ div.menu-item:hover {
     #videoBlock,#partnersGrid, #historyGrid {
         display: block;
     }
-    #video iframe {
+    #characs iframe {
         width: 100%;
     }
     #ownDesignDepartContent {

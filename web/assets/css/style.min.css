@@ -56,7 +56,7 @@ h1.block-title{text-transform:uppercase;text-align:center;font-size:40px;margin-
 #photoSlider .slides div h2{text-align:center;font-size:28px;}
 #ownProductionBlockWrapper{height:723px;margin-top:30px;margin-bottom:50px;}
 #videoBlock{display:grid;grid-template-columns:5fr 3fr;grid-gap:35px;padding-top:30px;}
-#video{background:black;height:329px;}
+#characs{background:black;height:329px;}
 #advantages{}
 #advantages div{clear:both;}
 #advantages div div.item-text{height:60px;display:table-cell;width:270px;border-bottom:2px solid #ec3924;vertical-align:middle;}
