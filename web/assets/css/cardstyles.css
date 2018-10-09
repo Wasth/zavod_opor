@@ -127,8 +127,8 @@
     cursor: pointer;
 }
 #popup {
-    max-width: calc(90vw - 30px);
-    max-height: calc(90vh - 30px);
+    max-width: calc(90vw - 30px - 153px);
+    max-height: calc(90vh - 30px - 153px);
     padding: 15px;
     margin: calc(5vh + 153px) auto;
     background: white;
@@ -136,8 +136,8 @@
 }
 
 #popup img.full-img {
-    max-width: calc(90vw - 30px);
-    max-height: calc(90vh - 30px);
+    max-width: calc(90vw - 30px - 153px);
+    max-height: calc(90vh - 30px - 153px);
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 

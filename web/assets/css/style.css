@@ -33,6 +33,9 @@
 .lock {
     overflow: hidden;
 }
+.info-about-us {
+    font-size: 25px;
+}
 h1.block-title::before, h1.block-title::after {
     position: relative;
     top: 18px;
