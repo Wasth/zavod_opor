@@ -27,6 +27,13 @@
 </div>
 <div id="photosWrapper">
     <div id="photos" class="content">
+        <div><img src="/assets/img/media/7fef1543-e72c-4464-a69a-b32f434648db.jpg" alt=""></div>
+        <div><img src="/assets/img/media/9d9eb581-3242-47ad-8f5d-44b5e123e653.jpg" alt=""></div>
+        <div><img src="/assets/img/media/27b76881-14a8-4f66-a5e9-10390a8881d0.jpg" alt=""></div>
+        <div><img src="/assets/img/media/947ba9b9-42d6-4029-bc94-49ba392ed7ee.jpg" alt=""></div>
+        <div><img src="/assets/img/media/39433f49-4d10-4f84-a15c-2ece78f5c633.jpg" alt=""></div>
+        <div><img src="/assets/img/media/4610617b-1de0-4c1c-a150-66930b373a34.jpg" alt=""></div>
+
         <div><img src="/assets/img/slider1/1slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider1/2slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider1/3slide.jpg" alt=""></div>
@@ -62,7 +69,7 @@
         <div><img src="/assets/img/slider2/3slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider2/4slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider2/5slide.jpg" alt=""></div>
-        <div><img src="/assets/img/slider2/6slide.jpg" alt=""></div>
+<!--        <div><img src="/assets/img/slider2/6slide.jpg" alt=""></div>-->
         <div><img src="/assets/img/slider2/7slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider2/8slide.jpg" alt=""></div>
         <div><img src="/assets/img/slider2/9slide.jpg" alt=""></div>
@@ -81,15 +88,15 @@
         <div><img src="/assets/img/media/3pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/4pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/5pic.jpg" alt=""></div>
-        <div><img src="/assets/img/media/6pic.jpg" alt=""></div>
+<!--        <div><img src="/assets/img/media/6pic.jpg" alt=""></div>-->
         <div><img src="/assets/img/media/7pic.jpg" alt=""></div>
-        <div><img src="/assets/img/media/8pic.jpg" alt=""></div>
+<!--        <div><img src="/assets/img/media/8pic.jpg" alt=""></div>-->
         <div><img src="/assets/img/media/9pic.jpg" alt=""></div>
-        <div><img src="/assets/img/media/10pic.jpg" alt=""></div>
+<!--        <div><img src="/assets/img/media/10pic.jpg" alt=""></div>-->
         <div><img src="/assets/img/media/11pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/12pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/13pic.jpg" alt=""></div>
-        <div><img src="/assets/img/media/14pic.jpg" alt=""></div>
+<!--        <div><img src="/assets/img/media/14pic.jpg" alt=""></div>-->
         <div><img src="/assets/img/media/15pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/16pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/17pic.jpg" alt=""></div>
@@ -100,7 +107,7 @@
         <div><img src="/assets/img/media/22pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/23pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/24pic.jpg" alt=""></div>
-        <div><img src="/assets/img/media/25pic.jpg" alt=""></div>
+<!--        <div><img src="/assets/img/media/25pic.jpg" alt=""></div>-->
         <div><img src="/assets/img/media/26pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/27pic.jpg" alt=""></div>
         <div><img src="/assets/img/media/28pic.jpg" alt=""></div>
