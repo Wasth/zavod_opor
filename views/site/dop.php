@@ -10,9 +10,9 @@
             foreach($items as $item): ?>
                 <div>
                     <?php if($item->dopItems): ?>
-                        <h2><?= $item->name ?></h2>
+                        <h2 class="parent-item"><?= $item->name ?></h2>
                         <?php foreach ($item->dopItems as $child): ?>
-                            <h3 class="inline"><a href="<?= Url::to(['full-dop', 'id' => $child->id]) ?>"><?= $child->name ?></a></h3>
+                            <h3 class="inline child-item"><a href="<?= Url::to(['full-dop', 'id' => $child->id]) ?>"><?= $child->name ?></a></h3>
                         <?php endforeach; ?>
                     <?php else: ?>
                         <a href="<?= Url::to(['full-dop', 'id' => $item->id]) ?>"><h2><?= $item->name?></h2></a>

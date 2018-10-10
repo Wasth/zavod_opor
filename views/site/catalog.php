@@ -8,9 +8,9 @@
 
             foreach($items as $item): ?>
                 <div>
-                    <h2><?= $item->text ?></h2>
+                    <h2 class="parent-item"><?= $item->text ?></h2>
                     <?php foreach ($item->varieties as $child): ?>
-                        <h3 class="inline"><a href="<?= Url::toRoute(['variety', 'id'=>$child->id]) ?>"><?= $child->text ?></a></h3>
+                        <h3 class="inline child-item"><a href="<?= Url::toRoute(['variety', 'id'=>$child->id]) ?>"><?= $child->text ?></a></h3>
                     <?php endforeach; ?>
                 </div>
             <?php endforeach; ?>

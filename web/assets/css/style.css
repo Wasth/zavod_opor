@@ -36,6 +36,12 @@
 .info-about-us {
     font-size: 25px;
 }
+.parent-item {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.child-item {
+    margin-right: 20px;
+}
 h1.block-title::before, h1.block-title::after {
     position: relative;
     top: 18px;
