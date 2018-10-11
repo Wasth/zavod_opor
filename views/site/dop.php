@@ -15,7 +15,7 @@
                             <h3 class="inline child-item"><a href="<?= Url::to(['full-dop', 'id' => $child->id]) ?>"><?= $child->name ?></a></h3>
                         <?php endforeach; ?>
                     <?php else: ?>
-                        <a href="<?= Url::to(['full-dop', 'id' => $item->id]) ?>"><h2><?= $item->name?></h2></a>
+                        <a class="clickable-parent" href="<?= Url::to(['full-dop', 'id' => $item->id]) ?>"><h2><?= $item->name?></h2></a>
                     <?php endif; ?>
 
                 </div>
