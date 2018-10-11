@@ -8,7 +8,7 @@
             <?php use yii\helpers\Url;
 
             foreach($items as $item): ?>
-                <div>
+                <div class="each-parent-block">
                     <?php if($item->dopItems): ?>
                         <h2 class="parent-item"><?= $item->name ?></h2>
                         <?php foreach ($item->dopItems as $child): ?>
