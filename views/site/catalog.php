@@ -7,7 +7,7 @@
             <?php use yii\helpers\Url;
 
             foreach($items as $item): ?>
-                <div>
+                <div class="each-parent-block">
                     <h2 class="parent-item"><?= $item->text ?></h2>
                     <?php foreach ($item->varieties as $child): ?>
                         <h3 class="inline child-item"><a href="<?= Url::toRoute(['variety', 'id'=>$child->id]) ?>"><?= $child->text ?></a></h3>
