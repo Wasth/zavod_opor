@@ -28,6 +28,7 @@
 }
 .content {
     width: 1300px;
+    /*width: calc(100% - 50px);*/
     margin: 0 auto;
 }
 .lock {
@@ -141,6 +142,7 @@ h1.block-title {
 }
 #header {
     padding: 13px 0;
+    width: calc(100% - 50px);
 }
 #header #left-block {
     float: left;
@@ -179,6 +181,9 @@ h1.block-title {
     background-color: #ff4a35;
     color: white;
 }
+#menuWrapper .content {
+    text-align: center;
+}
 #menuWrapper a {
     color: white;
     font-size: 24px;
@@ -190,8 +195,11 @@ h1.block-title {
     /*margin-right: 50px;*/
 }
 #menuUp {
-    margin-top: 12px;
     display: inline-block;
+    width: calc(100% - 232px - 488px - 1px);
+    margin: 0 auto;
+    margin-top: 12px;
+    text-align: center;
 }
 #menuUp a{
     color: black;
