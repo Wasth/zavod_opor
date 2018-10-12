@@ -11,7 +11,7 @@ $this->title = 'Завод по производству опор трубопр
 
 <div id="mainBlockWrapper">
     <div id="mainBlock" class="content">
-        <h1 id="mainTitle">ОПОРЫ ТРУБОПРОВОДОВ</h1>
+        <h1 id="mainTitle">ЗАВОД ПО ПРОИЗВОДСТВУ ОПОР ТРУБОПРОВОДОВ</h1>
         <h1 id="mainDescription">скользящие, корпусные/бескорпусные,
             подвижные/неподвижные, приварные хомутовые</h1>
         <div id="mainGrid">

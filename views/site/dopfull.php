@@ -73,7 +73,7 @@ $this->title = $item->name;
                             </div>
                         </div>
                         <?php if($varieties): ?>
-                            <h1>Мы продаем <?= $item->name ?> следующих типов</h1>
+                            <h1>Мы производим <?= $item->name ?> следующих типов</h1>
                             <div>
                                 <?php foreach($varieties as $variety): ?>
                                     <a class="black" href="<?= Url::toRoute(['full-dop/'.$variety->id]) ?>">

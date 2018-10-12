@@ -63,7 +63,7 @@ $this->title = $item->text;
                 </div>
                 <div id="characs">
                     <?php if($varieties): ?>
-                            <h1>Мы продаем <?= $item->text ?> следующих типов</h1>
+                            <h1>Мы производим <?= $item->text ?> следующих типов</h1>
                             <div>
                                 <?php foreach($varieties as $variety): ?>
                                     <a class="black" href="<?= Url::toRoute(['variety/'.$variety->id]) ?>">
