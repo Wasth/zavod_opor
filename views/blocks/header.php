@@ -40,7 +40,7 @@ use yii\helpers\Url;
                 </a><a href="<?= Url::toRoute(['dop', 'id'=>'5']) ?>">
                     <div class="menu-item">Сальники</div>
                 </a><a href="<?= Url::toRoute(['dop', 'id'=>'6']) ?>">
-                    <div class="menu-item">Фундаментальные болты</div>
+                    <div class="menu-item">Фундаментные болты</div>
                 </a>
             </div>
         </div>
